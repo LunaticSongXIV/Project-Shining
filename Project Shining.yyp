@@ -39,11 +39,27 @@
             }
         },
         {
+            "Key": "09cf34a7-12c2-426e-b5ad-507cb8665173",
+            "Value": {
+                "id": "48dd83bc-eac1-4bb0-a502-5ff6794a5bab",
+                "resourcePath": "tilesets\\tile_outdoors\\tile_outdoors.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "15d43ec6-d3f6-44ef-872a-be59b68c817e",
             "Value": {
                 "id": "677d4c3e-84e1-4f11-9049-15452d996ceb",
                 "resourcePath": "views\\15d43ec6-d3f6-44ef-872a-be59b68c817e.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "1d42e63a-e29d-49e3-bfdf-77e59c59b806",
+            "Value": {
+                "id": "8e9abf93-114a-4714-ba6c-5077aaa85731",
+                "resourcePath": "objects\\obj_hero_1\\obj_hero_1.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -71,6 +87,14 @@
             }
         },
         {
+            "Key": "41e45def-5c21-4d8a-aeda-fd2af6538d44",
+            "Value": {
+                "id": "341d08b0-d18f-47e3-a313-8e22cd092860",
+                "resourcePath": "scripts\\scr_battlemain\\scr_battlemain.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "46a6a811-6ce4-44d0-a88f-4214ed50cc59",
             "Value": {
                 "id": "32e0e6ca-552f-4003-8532-a9012a3f3a07",
@@ -84,6 +108,30 @@
                 "id": "806d171e-fbf0-4b17-82c8-ab11f568b5f6",
                 "resourcePath": "views\\48508a4f-9adf-4f1c-b5d2-70c9c8e6b4d0.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "6cfc06ad-07d5-4b32-94d0-91dd8a9cee3e",
+            "Value": {
+                "id": "6521742d-f845-486f-a415-28870aa43d42",
+                "resourcePath": "notes\\note_0.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "7a98d5b3-48f1-47ca-b6eb-0eb238c28d92",
+            "Value": {
+                "id": "94c536ac-2a04-4e01-bc62-299e595cb266",
+                "resourcePath": "sprites\\spr_tile_outdoors\\spr_tile_outdoors.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "80a0e025-30d2-4947-820e-86d9d955d3f7",
+            "Value": {
+                "id": "dcd21fca-ba8d-45ec-ae2c-4ff61c93252d",
+                "resourcePath": "sprites\\spr_hero_1\\spr_hero_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -114,7 +162,7 @@
             "Key": "8ff9ffc5-c2cd-4e39-bec4-95c83d733fae",
             "Value": {
                 "id": "791c3b50-8e3d-42fd-9a78-19bd3228a82f",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\battletest\\battletest.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -192,7 +240,7 @@
         }
     ],
     "script_order": [
-        
+        "41e45def-5c21-4d8a-aeda-fd2af6538d44"
     ],
     "tutorial": ""
 }
