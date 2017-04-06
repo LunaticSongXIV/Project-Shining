@@ -2,7 +2,7 @@
     "id": "80a0e025-30d2-4947-820e-86d9d955d3f7",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_hero_1",
+    "name": "spr_hero_1_down",
     "For3D": false,
     "HTile": false,
     "VTile": false,
@@ -120,7 +120,7 @@
         }
     ],
     "origin": 4,
-    "playbackSpeed": 3,
+    "playbackSpeed": 4,
     "playbackSpeedType": 0,
     "sepmasks": false,
     "swatchColours": null,
