@@ -74,7 +74,7 @@
             "Key": "297e6ecf-d04a-4ace-bc8c-51eb614421fc",
             "Value": {
                 "id": "5c736264-3c79-4699-b85f-6d873964ddde",
-                "resourcePath": "sprites\\spr_hero_2_down_d\\spr_hero_2_down_d.yy",
+                "resourcePath": "sprites\\spr_hero_2_down\\spr_hero_2_down.yy",
                 "resourceType": "GMSprite"
             }
         },
