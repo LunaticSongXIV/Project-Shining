@@ -1,9 +1,8 @@
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 308429E6
-/// @DnDArgument : "value" "1"
 /// @DnDArgument : "var" "battleinprogress"
-global.battleinprogress = 1;
+global.battleinprogress = 0;
 
 
 /// @DnDAction : YoYo Games.Common.Variable

@@ -1,3 +1,16 @@
+/// @DnDAction : YoYo Games.Drawing.Draw_Sprite
+/// @DnDVersion : 1
+/// @DnDHash : 7420CA6C
+/// @DnDArgument : "x" "195"
+/// @DnDArgument : "y" "35"
+/// @DnDArgument : "sprite" "ui_statblock"
+/// @DnDSaveInfo : "sprite" "8ac39955-17f2-4e0f-9657-f8a8ae55a0b1"
+
+var l7420CA6C_0 = 195;
+var l7420CA6C_1 = 35;
+draw_sprite(ui_statblock, 0, l7420CA6C_0, l7420CA6C_1);
+
+
 /// @DnDAction : YoYo Games.Types.Number_To_String
 /// @DnDVersion : 1
 /// @DnDHash : 2588AC03
