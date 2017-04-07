@@ -199,6 +199,14 @@
             }
         },
         {
+            "Key": "7891d0e2-f0e4-43e1-af3b-be2f6bbcb552",
+            "Value": {
+                "id": "182ddd72-f672-4e37-9788-8e835ce5785e",
+                "resourcePath": "objects\\battle_room_test_0\\battle_room_test_0.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "7a98d5b3-48f1-47ca-b6eb-0eb238c28d92",
             "Value": {
                 "id": "94c536ac-2a04-4e01-bc62-299e595cb266",
@@ -404,6 +412,14 @@
                 "id": "41f298c6-006f-4350-acec-d5cf6ba7314f",
                 "resourcePath": "tilesets\\tile_doors\\tile_doors.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "d242d6eb-6d2c-4562-af9f-f3d371c41619",
+            "Value": {
+                "id": "03b60ad2-bf6d-4505-a1f5-8b05886c5c44",
+                "resourcePath": "views\\d242d6eb-6d2c-4562-af9f-f3d371c41619.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
