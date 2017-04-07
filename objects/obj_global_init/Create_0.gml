@@ -26,10 +26,10 @@ global.partystat = ds_grid_create(20, 11);
 /// @DnDVersion : 1
 /// @DnDHash : 650FC1C9
 /// @DnDArgument : "var" "global.partystat"
-/// @DnDArgument : "value" ""Name""
+/// @DnDArgument : "value" ""Genesis""
 
 {
-	ds_grid_set(global.partystat, 0, 0, "Name");
+	ds_grid_set(global.partystat, 0, 0, "Genesis");
 }
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value

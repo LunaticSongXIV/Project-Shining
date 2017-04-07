@@ -55,13 +55,12 @@ for(i = 0; i < global.partysize; i += 1) {
 			/// @DnDHash : 7FDC68FD
 			/// @DnDParent : 38804A12
 			/// @DnDArgument : "assignee" "statinsert"
-			/// @DnDArgument : "assignee_temp" "1"
 			/// @DnDArgument : "var" "global.partystat"
-			/// @DnDArgument : "x" "partyattrib"
-			/// @DnDArgument : "y" "partytemp"
+			/// @DnDArgument : "x" "partytemp"
+			/// @DnDArgument : "y" "partyattrib"
 			
 			{
-				var statinsert = ds_grid_get(global.partystat, partyattrib, partytemp);
+				statinsert = ds_grid_get(global.partystat, partytemp, partyattrib);
 			}
 	
 			/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
@@ -69,12 +68,12 @@ for(i = 0; i < global.partysize; i += 1) {
 			/// @DnDHash : 7F8D6F3D
 			/// @DnDParent : 38804A12
 			/// @DnDArgument : "var" "battlestatgrid"
-			/// @DnDArgument : "x" "partyattrib"
-			/// @DnDArgument : "y" "partytemp"
+			/// @DnDArgument : "x" "partytemp"
+			/// @DnDArgument : "y" "partyattrib"
 			/// @DnDArgument : "value" "statinsert"
 			
 			{
-				ds_grid_set(battlestatgrid, partyattrib, partytemp, statinsert);
+				ds_grid_set(battlestatgrid, partytemp, partyattrib, statinsert);
 			}
 	
 			/// @DnDAction : YoYo Games.Common.Temp_Variable
