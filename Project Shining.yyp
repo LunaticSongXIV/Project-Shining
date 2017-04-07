@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "bd4d21c8-9308-468d-9fc3-191e89f6579d",
+            "Value": {
+                "id": "333b4cea-1484-49da-b89c-a83a4b5bb796",
+                "resourcePath": "sprites\\spr_tile_bricks\\spr_tile_bricks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bff93660-b5e2-467d-98ae-78ee08363cff",
             "Value": {
                 "id": "b5c91bfe-d491-4f3c-aae5-2783aecd8775",
