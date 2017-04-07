@@ -8,7 +8,7 @@
     "VTile": false,
     "bbox_bottom": 1023,
     "bbox_left": 0,
-    "bbox_right": 767,
+    "bbox_right": 773,
     "bbox_top": 0,
     "bboxmode": 0,
     "colkind": 1,
@@ -37,8 +37,8 @@
             ]
         }
     ],
-    "gridX": 0,
-    "gridY": 0,
+    "gridX": 64,
+    "gridY": 64,
     "height": 1024,
     "layers": [
         {
@@ -61,7 +61,7 @@
     "swfPrecision": 2.525,
     "textureGroup": 0,
     "type": 0,
-    "width": 768,
+    "width": 774,
     "xorig": 0,
     "yorig": 0
 }
