@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "071c27c1-8cf3-482a-bdbf-754ba2aa6c8a",
+            "Value": {
+                "id": "c1920956-d5d2-44bc-a9b1-74437b9d1e9b",
+                "resourcePath": "sprites\\spr_tile_doors_1\\spr_tile_doors_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "07830c2e-7b75-456e-ad00-444e96eb72f7",
             "Value": {
                 "id": "657e9e66-85a6-4dd0-b16b-1736339e8eaf",
@@ -60,6 +68,22 @@
                 "id": "2605abd4-52a2-459e-9772-650059c88939",
                 "resourcePath": "tilesets\\tile_kitchen\\tile_kitchen.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "0eb8de6a-e048-4af9-a680-601954eee694",
+            "Value": {
+                "id": "60e33e31-63dc-47ba-943d-5d106d7c11fc",
+                "resourcePath": "sprites\\spr_tile_castle_1\\spr_tile_castle_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "11b50626-9cb8-40a4-bfa3-d610eaf837a1",
+            "Value": {
+                "id": "a0f77a8f-01d4-4097-987b-27ca79a18859",
+                "resourcePath": "sprites\\spr_tile_outdoors_1\\spr_tile_outdoors_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -295,6 +319,14 @@
             }
         },
         {
+            "Key": "a159eb94-6dae-448b-8f11-7fc2ae9d655a",
+            "Value": {
+                "id": "09075429-ff03-46f4-94b0-2483abfddfd5",
+                "resourcePath": "sprites\\spr_tile_house_1\\spr_tile_house_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a17bf91b-e648-4f02-8ec6-09234390f416",
             "Value": {
                 "id": "87b2c818-f963-4e1c-94ca-a72b903187c6",
@@ -340,6 +372,14 @@
                 "id": "496d9421-7d47-4d7d-ae1e-b5bc2fd4a204",
                 "resourcePath": "rooms\\Title_Main\\Title_Main.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "b688f85a-3795-475b-9931-979fc7c7a8fb",
+            "Value": {
+                "id": "e0303e42-99fa-40b8-95b0-9592cc65248e",
+                "resourcePath": "sprites\\spr_tile_dungeon_1\\spr_tile_dungeon_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
