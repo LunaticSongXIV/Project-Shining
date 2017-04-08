@@ -8,8 +8,15 @@ moveok = 1;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 4A014695
-/// @DnDArgument : "var" "battleinprogress"
-battleinprogress = 0;
+/// @DnDHash : 79FA4B75
+/// @DnDArgument : "var" "movetime"
+movetime = 0;
+
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 53C53009
+/// @DnDArgument : "var" "global.battleinprogress"
+global.battleinprogress = 0;
 
 
