@@ -2,7 +2,7 @@
     "id": "11b50626-9cb8-40a4-bfa3-d610eaf837a1",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_tile_outdoors_1",
+    "name": "spr_tile_outdoors",
     "For3D": false,
     "HTile": false,
     "VTile": false,

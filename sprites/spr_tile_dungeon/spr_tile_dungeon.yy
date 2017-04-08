@@ -2,7 +2,7 @@
     "id": "b688f85a-3795-475b-9931-979fc7c7a8fb",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_tile_dungeon_1",
+    "name": "spr_tile_dungeon",
     "For3D": false,
     "HTile": false,
     "VTile": false,

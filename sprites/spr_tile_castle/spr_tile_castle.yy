@@ -2,7 +2,7 @@
     "id": "0eb8de6a-e048-4af9-a680-601954eee694",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_tile_castle_1",
+    "name": "spr_tile_castle",
     "For3D": false,
     "HTile": false,
     "VTile": false,
