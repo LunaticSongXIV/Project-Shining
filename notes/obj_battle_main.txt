@@ -1,0 +1,1 @@
+'fighters' variable is used to declare the number of total enemies on a given map, by adding the number of enemies to the current party size

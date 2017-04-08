@@ -18,8 +18,8 @@ global.partysize = 1;
 /// @DnDHash : 006A989F
 /// @DnDArgument : "var" "global.partystat"
 /// @DnDArgument : "width" "20"
-/// @DnDArgument : "height" "11"
-global.partystat = ds_grid_create(20, 11);
+/// @DnDArgument : "height" "26"
+global.partystat = ds_grid_create(20, 26);
 
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value

@@ -1,0 +1,36 @@
+[Index] Stat
+
+Fundamentals
+
+[0] Name
+[1] Race
+[2] Class
+[3] Level
+[4] Experience
+
+Vitals
+
+[5] Life / [6] Max Life
+[7] Stam / [8] Max Stam
+[9] Mana / [10] Max Mana
+
+Attributes
+
+[11] Strength
+[12] Dexterity
+[13] Agility
+[14] Intelligence
+[15] Constitution
+[16] Piety
+[17] Speed
+[18] Movement
+
+Derived
+
+[19] Attack
+[20] Defense
+[21] Accuracy
+[22] Evasion
+[23] Parry %
+[24] Block %
+[25] Counter %
