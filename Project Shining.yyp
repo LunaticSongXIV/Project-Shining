@@ -34,7 +34,7 @@
             "Key": "071c27c1-8cf3-482a-bdbf-754ba2aa6c8a",
             "Value": {
                 "id": "c1920956-d5d2-44bc-a9b1-74437b9d1e9b",
-                "resourcePath": "sprites\\spr_tile_doors_1\\spr_tile_doors_1.yy",
+                "resourcePath": "sprites\\spr_tile_doors\\spr_tile_doors.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -74,7 +74,7 @@
             "Key": "0eb8de6a-e048-4af9-a680-601954eee694",
             "Value": {
                 "id": "60e33e31-63dc-47ba-943d-5d106d7c11fc",
-                "resourcePath": "sprites\\spr_tile_castle_1\\spr_tile_castle_1.yy",
+                "resourcePath": "sprites\\spr_tile_castle\\spr_tile_castle.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -82,7 +82,7 @@
             "Key": "11b50626-9cb8-40a4-bfa3-d610eaf837a1",
             "Value": {
                 "id": "a0f77a8f-01d4-4097-987b-27ca79a18859",
-                "resourcePath": "sprites\\spr_tile_outdoors_1\\spr_tile_outdoors_1.yy",
+                "resourcePath": "sprites\\spr_tile_outdoors\\spr_tile_outdoors.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -354,7 +354,7 @@
             "Key": "b688f85a-3795-475b-9931-979fc7c7a8fb",
             "Value": {
                 "id": "e0303e42-99fa-40b8-95b0-9592cc65248e",
-                "resourcePath": "sprites\\spr_tile_dungeon_1\\spr_tile_dungeon_1.yy",
+                "resourcePath": "sprites\\spr_tile_dungeon\\spr_tile_dungeon.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -467,14 +467,6 @@
             "Value": {
                 "id": "f502969a-b1d3-4f27-a6a9-604b9e5213fe",
                 "resourcePath": "sprites\\spr_tile_water\\spr_tile_water.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "dab3b064-45e7-4090-bdeb-a164817033d0",
-            "Value": {
-                "id": "28e0fdac-d43b-4d50-aa61-8aa3acf6fa8b",
-                "resourcePath": "sprites\\spr_tile_house_1\\spr_tile_house_1.yy",
                 "resourceType": "GMSprite"
             }
         },
