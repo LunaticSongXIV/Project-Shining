@@ -1,0 +1,4 @@
+global.battlephase is a variable that sets which step of the battle engine is currently running.
+
+battlephase 0 = no battle is currently in progress
+battlephase 1 = determine which character's turn should happen next

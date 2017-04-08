@@ -22,15 +22,19 @@ Attributes
 [14] Intelligence
 [15] Constitution
 [16] Piety
-[17] Speed
-[18] Movement
+[17] Speed / [18] Initiative
+[19] Movement
 
 Derived
 
-[19] Attack
-[20] Defense
-[21] Accuracy
-[22] Evasion
-[23] Parry %
-[24] Block %
-[25] Counter %
+[20] Attack
+[21] Defense
+[22] Accuracy
+[23] Evasion
+[24] Parry %
+[25] Block %
+[26] Counter %
+
+System
+
+[27] Instance ID
