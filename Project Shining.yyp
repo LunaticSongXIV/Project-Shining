@@ -295,14 +295,6 @@
             }
         },
         {
-            "Key": "a159eb94-6dae-448b-8f11-7fc2ae9d655a",
-            "Value": {
-                "id": "09075429-ff03-46f4-94b0-2483abfddfd5",
-                "resourcePath": "sprites\\spr_tile_house_1\\spr_tile_house_1.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "a17bf91b-e648-4f02-8ec6-09234390f416",
             "Value": {
                 "id": "87b2c818-f963-4e1c-94ca-a72b903187c6",
@@ -475,6 +467,14 @@
             "Value": {
                 "id": "f502969a-b1d3-4f27-a6a9-604b9e5213fe",
                 "resourcePath": "sprites\\spr_tile_water\\spr_tile_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dab3b064-45e7-4090-bdeb-a164817033d0",
+            "Value": {
+                "id": "28e0fdac-d43b-4d50-aa61-8aa3acf6fa8b",
+                "resourcePath": "sprites\\spr_tile_house_1\\spr_tile_house_1.yy",
                 "resourceType": "GMSprite"
             }
         },
