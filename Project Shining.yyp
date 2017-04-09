@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "2ddc35bb-b089-42f7-b0c5-c3cf8f9f9c55",
+            "Value": {
+                "id": "937d4b43-f563-43c9-8264-aac509ddebb3",
+                "resourcePath": "sprites\\spr_hero_1_down_1\\spr_hero_1_down_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2e2f4774-5551-4a4e-9aaa-0d06d2ff5fad",
             "Value": {
                 "id": "6353f805-5031-4daf-9152-13bedeb72ca5",
@@ -239,6 +247,14 @@
             }
         },
         {
+            "Key": "6d58fed5-0d8f-4fd6-a519-d234bac614dd",
+            "Value": {
+                "id": "1e53a52d-b91c-4923-8847-c14b4c41abe4",
+                "resourcePath": "sprites\\spr_hero_1_left_1\\spr_hero_1_left_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "7891d0e2-f0e4-43e1-af3b-be2f6bbcb552",
             "Value": {
                 "id": "182ddd72-f672-4e37-9788-8e835ce5785e",
@@ -292,6 +308,14 @@
                 "id": "2b8bdbdb-05f8-4a5b-a856-6af73bd87d38",
                 "resourcePath": "views\\8512f2b8-98b1-4b72-ab87-4b7b521a4908.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "874b39a4-9b45-45e8-a72b-2e7fa4f5ccb8",
+            "Value": {
+                "id": "1b8229f4-4fe2-4dd6-aa72-3be9ac9558c3",
+                "resourcePath": "sprites\\spr_hero_1_right_1\\spr_hero_1_right_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -556,6 +580,14 @@
                 "id": "a226e7e5-49ca-4898-a1c0-b85be50d12a6",
                 "resourcePath": "scripts\\turnhandler\\turnhandler.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "e24616ac-c332-484c-8385-06b301d51f81",
+            "Value": {
+                "id": "c32a9fe7-323e-4b5a-abc0-0f582ecbfc63",
+                "resourcePath": "sprites\\spr_hero_1_up_1\\spr_hero_1_up_1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
