@@ -2,7 +2,7 @@
     "id": "82ea4e06-c9c2-445f-aad3-bda2348aa960",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_tile_bricks",
+    "name": "sprite_18",
     "For3D": false,
     "HTile": false,
     "VTile": false,
