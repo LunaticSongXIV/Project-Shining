@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 585CE789
+/// @DnDArgument : "var" "newchar"
+global.newchar = 0;
+
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 539E4BA3
@@ -25,15 +32,23 @@ show_debug_message(string("Battle Map Continues"));
 	ds_grid_set(global.charstat, 0, 27, tempinstid);
 }
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 3A1657F2
+/// @DnDArgument : "value" "1"
+/// @DnDArgument : "var" "newchar"
+global.newchar = 1;
+
+
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1
 /// @DnDHash : 72EBE788
 /// @DnDArgument : "xpos" "64"
-/// @DnDArgument : "ypos" "384"
+/// @DnDArgument : "ypos" "448"
 /// @DnDArgument : "var" "tempinstid"
 /// @DnDArgument : "objectid" "obj_party_character"
 /// @DnDSaveInfo : "objectid" "96ddc5ff-8ff3-45c8-a6b1-b2696088318c"
-tempinstid = instance_create_layer(64, 384, "Instances", obj_party_character); 
+tempinstid = instance_create_layer(64, 448, "Instances", obj_party_character); 
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
@@ -52,6 +67,14 @@ show_debug_message(string("Battle Map Continues"));
 {
 	ds_grid_set(global.charstat, 1, 27, tempinstid);
 }
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 70566944
+/// @DnDArgument : "value" "20"
+/// @DnDArgument : "var" "newchar"
+global.newchar = 20;
+
 
 /// @DnDAction : YoYo Games.Instances.Create_Instance
 /// @DnDVersion : 1

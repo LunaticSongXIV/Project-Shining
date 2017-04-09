@@ -2,7 +2,8 @@
 /// @DnDVersion : 1
 /// @DnDHash : 7F39C277
 /// @DnDArgument : "var" "myself"
-if(myself == 0)
+/// @DnDArgument : "value" "20"
+if(myself == 20)
 {
 	
 
