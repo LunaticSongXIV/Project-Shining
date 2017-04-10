@@ -488,6 +488,14 @@
             }
         },
         {
+            "Key": "b2fb7700-bfca-4be2-80ad-adbab43eb844",
+            "Value": {
+                "id": "68f3323c-f2b1-424c-b137-bcc84adf1062",
+                "resourcePath": "notes\\battleengineworkflow.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "b5031fb0-a642-42b1-b176-a9844820b3d5",
             "Value": {
                 "id": "f8a173aa-106d-4478-9989-04f1b8627540",

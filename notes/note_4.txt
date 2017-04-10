@@ -1,0 +1,51 @@
+Battle Engine Workflow
+
+Spawn Entities - Done
+Initiative Order - Done
+Camera Focus on Turn - Done
+UI Stat Block Current Turn
+Grid-based Tracking of Entities
+Movement on Turn
+Unpathable Terrain / Collision with Others
+UI Show Moveable on Turn
+Path Through Friendly
+Next Initiative in Order
+Modular Initiative From Movement and Base Initiative Loss
+UI Show Predictive Turn Order (Determine turn order next x turns, restore using DS_MAP?)
+Attack on Turn / Remove Dead Entity
+Battle End Condition (When All of Factions Are Dead)
+Health and Random Damage
+UI Free Cursor from Active Character
+UI Stat Block on Mouseover Target
+Experience Gain and Level Up
+UI Character Status Screen
+Inventory and Equipment w/ UI
+Cut to Battle Scene (Engine side only, battle scenes handled as separate project)
+UI Ability Menu (Default Melee Attack)
+Ability Framework (Melee Abilities)
+UI Show Valid Targets (Melee)
+Ranged Basic Attacks (Infinite Range)
+Ranged Basic Attacks (Limited Range)
+Ability Framework (Ranged)
+UI Show Valid Targets (Ranged)
+Ability Framework (Point Blank Area of Effect)
+UI Show Valid Targets PBAoE
+Ability Framework (Ranged Area of Effect)
+UI Show Valid Targets RAoE
+Ability Framework (Items)
+UI Show Valid Targets Item
+Healing Abilities
+Ability Framework (Equipment-Based Abilities)
+Status Ailments
+AI Basic Movement
+AI Melee
+AI Target Selection (Predictive Evaluation of Targets and Effects)
+AI Advanced Movement (Finding optimal position for abilities)
+AI Ranged
+AI Ability M
+AI Ability R
+AI Ability PBAoE
+AI Ability RAoE
+AI Items
+AI Flee To Heal
+AI Multiple Factions
