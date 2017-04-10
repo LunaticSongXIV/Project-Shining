@@ -1,16 +1,26 @@
+/// @DnDAction : YoYo Games.Random.Randomize
+/// @DnDVersion : 1
+/// @DnDHash : 5D67B39E
+randomize();
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 5FA9F826
-/// @DnDInput : 3
+/// @DnDInput : 5
 /// @DnDArgument : "value" "8"
-/// @DnDArgument : "value_1" "8"
+/// @DnDArgument : "value_1" "4"
 /// @DnDArgument : "value_2" "1"
+/// @DnDArgument : "value_4" "6"
 /// @DnDArgument : "var" "movetime"
 /// @DnDArgument : "var_1" "movespeed"
 /// @DnDArgument : "var_2" "partysize"
+/// @DnDArgument : "var_3" "cameramoving"
+/// @DnDArgument : "var_4" "cameraspeed"
 global.movetime = 8;
-global.movespeed = 8;
+global.movespeed = 4;
 global.partysize = 1;
+global.cameramoving = 0;
+global.cameraspeed = 6;
 
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Grid
@@ -140,5 +150,40 @@ global.charstat = ds_grid_create(100, 28);
 
 {
 	ds_grid_set(global.charstat, 0, 10, 27);
+}
+
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 50F2745B
+/// @DnDArgument : "var" "global.charstat"
+/// @DnDArgument : "y" "17"
+/// @DnDArgument : "value" "9"
+
+{
+	ds_grid_set(global.charstat, 0, 17, 9);
+}
+
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 26FD5A69
+/// @DnDArgument : "var" "global.charstat"
+/// @DnDArgument : "x" "1"
+/// @DnDArgument : "y" "17"
+/// @DnDArgument : "value" "9"
+
+{
+	ds_grid_set(global.charstat, 1, 17, 9);
+}
+
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 717DB012
+/// @DnDArgument : "var" "global.charstat"
+/// @DnDArgument : "x" "20"
+/// @DnDArgument : "y" "17"
+/// @DnDArgument : "value" "9"
+
+{
+	ds_grid_set(global.charstat, 20, 17, 9);
 }
 

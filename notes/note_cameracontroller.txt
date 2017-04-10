@@ -1,0 +1,2 @@
+User Event 0 -- Battle Phase 1->2, Pan to target for taking turn, then start Battle Phase 2
+User Event 1 -- 

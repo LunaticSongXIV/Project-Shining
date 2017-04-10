@@ -1,21 +1,14 @@
-/// @DnDAction : YoYo Games.Common.If_Variable
-/// @DnDVersion : 1
-/// @DnDHash : 7F39C277
-/// @DnDArgument : "var" "myself"
-/// @DnDArgument : "value" "20"
-if(myself == 20)
-{
-	
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 77273217
+/// @DnDArgument : "script" "find_enemy_sprite"
+/// @DnDSaveInfo : "script" "35b24c7e-6eda-48c1-98ef-990c614dbcc3"
+script_execute(find_enemy_sprite);
 
-	/// @DnDAction : YoYo Games.Instances.Set_Sprite
-	/// @DnDVersion : 1
-	/// @DnDHash : 51C02041
-	/// @DnDParent : 7F39C277
-	/// @DnDArgument : "spriteind" "spr_hero_4_down"
-	/// @DnDSaveInfo : "spriteind" "2a27b214-0b98-4227-8cbc-b677822791f8"
-	sprite_index = spr_hero_4_down;
-	image_index = 0;
-
-
-}
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 1D2786B1
+/// @DnDArgument : "script" "battle_set_initiative"
+/// @DnDSaveInfo : "script" "fdcb687a-79b7-42b9-b7d9-f83600c15a48"
+script_execute(battle_set_initiative);
 
