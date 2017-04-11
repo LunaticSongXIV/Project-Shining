@@ -1,103 +1,67 @@
-/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 585CE789
-/// @DnDArgument : "var" "newchar"
-global.newchar = 0;
+/// @DnDHash : 63FEA530
+/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "var" "battlemapwidth"
+battlemapwidth = 50;
 
 
-/// @DnDAction : YoYo Games.Instances.Create_Instance
+/// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 539E4BA3
-/// @DnDArgument : "xpos" "64"
-/// @DnDArgument : "ypos" "320"
-/// @DnDArgument : "var" "tempinstid"
-/// @DnDArgument : "objectid" "obj_party_character"
-/// @DnDSaveInfo : "objectid" "96ddc5ff-8ff3-45c8-a6b1-b2696088318c"
-tempinstid = instance_create_layer(64, 320, "Instances", obj_party_character); 
+/// @DnDHash : 44227F69
+/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "var" "battlemapheight"
+battlemapheight = 50;
 
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 24BF81C7
-/// @DnDArgument : "msg" ""Battle Map Continues""
-show_debug_message(string("Battle Map Continues"));
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 7DD5C097
+/// @DnDArgument : "script" "initialize_battlemap_grid"
+script_execute(initialize_battlemap_grid);
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 /// @DnDVersion : 1
-/// @DnDHash : 0B932C1B
-/// @DnDArgument : "var" "global.charstat"
-/// @DnDArgument : "x" "global.newchar"
-/// @DnDArgument : "y" "27"
-/// @DnDArgument : "value" "tempinstid"
+/// @DnDHash : 716BE525
+/// @DnDArgument : "var" "global.battlemap"
+/// @DnDArgument : "x" "4"
+/// @DnDArgument : "y" "3"
+/// @DnDArgument : "value" "0"
 
 {
-	ds_grid_set(global.charstat, global.newchar, 27, tempinstid);
+	ds_grid_set(global.battlemap, 4, 3, 0);
 }
 
-/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 /// @DnDVersion : 1
-/// @DnDHash : 3A1657F2
+/// @DnDHash : 307AD669
+/// @DnDArgument : "var" "global.battlemap"
+/// @DnDArgument : "x" "14"
+/// @DnDArgument : "y" "4"
 /// @DnDArgument : "value" "1"
-/// @DnDArgument : "var" "newchar"
-global.newchar = 1;
 
-
-/// @DnDAction : YoYo Games.Instances.Create_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 72EBE788
-/// @DnDArgument : "xpos" "704"
-/// @DnDArgument : "ypos" "448"
-/// @DnDArgument : "var" "tempinstid"
-/// @DnDArgument : "objectid" "obj_party_character"
-/// @DnDSaveInfo : "objectid" "96ddc5ff-8ff3-45c8-a6b1-b2696088318c"
-tempinstid = instance_create_layer(704, 448, "Instances", obj_party_character); 
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 1EB27430
-/// @DnDArgument : "msg" ""Battle Map Continues""
-show_debug_message(string("Battle Map Continues"));
+{
+	ds_grid_set(global.battlemap, 14, 4, 1);
+}
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 /// @DnDVersion : 1
-/// @DnDHash : 38DA7D72
-/// @DnDArgument : "var" "global.charstat"
-/// @DnDArgument : "x" "global.newchar"
-/// @DnDArgument : "y" "27"
-/// @DnDArgument : "value" "tempinstid"
-
-{
-	ds_grid_set(global.charstat, global.newchar, 27, tempinstid);
-}
-
-/// @DnDAction : YoYo Games.Common.Set_Global
-/// @DnDVersion : 1
-/// @DnDHash : 70566944
+/// @DnDHash : 663D01E7
+/// @DnDArgument : "var" "global.battlemap"
+/// @DnDArgument : "x" "12"
+/// @DnDArgument : "y" "2"
 /// @DnDArgument : "value" "20"
-/// @DnDArgument : "var" "newchar"
-global.newchar = 20;
-
-
-/// @DnDAction : YoYo Games.Instances.Create_Instance
-/// @DnDVersion : 1
-/// @DnDHash : 4C47BB40
-/// @DnDArgument : "xpos" "1920"
-/// @DnDArgument : "ypos" "384"
-/// @DnDArgument : "var" "tempinstid"
-/// @DnDArgument : "objectid" "obj_enemy_character"
-/// @DnDSaveInfo : "objectid" "b759897c-c0d7-476e-8073-c93858e0c549"
-tempinstid = instance_create_layer(1920, 384, "Instances", obj_enemy_character); 
-
-/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
-/// @DnDVersion : 1
-/// @DnDHash : 0154A007
-/// @DnDArgument : "var" "global.charstat"
-/// @DnDArgument : "x" "global.newchar"
-/// @DnDArgument : "y" "27"
-/// @DnDArgument : "value" "tempinstid"
 
 {
-	ds_grid_set(global.charstat, global.newchar, 27, tempinstid);
+	ds_grid_set(global.battlemap, 12, 2, 20);
 }
+
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 31DE1BF2
+/// @DnDArgument : "script" "initialize_battlemap_placements"
+/// @DnDSaveInfo : "script" "bba3c7cd-83db-45c0-a89f-51c34011d49b"
+script_execute(initialize_battlemap_placements);
 
 /// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1

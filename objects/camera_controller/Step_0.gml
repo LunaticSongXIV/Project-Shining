@@ -231,16 +231,27 @@ if(global.cameramoving == 1)
 			{
 				
 			
-						/// @DnDAction : YoYo Games.Instances.Call_User_Event
+						/// @DnDAction : YoYo Games.Common.Set_Global
 						/// @DnDVersion : 1
-						/// @DnDHash : 012ED589
-						/// @DnDApplyTo : global.initiativecycle
+						/// @DnDHash : 7FA605AC
 						/// @DnDParent : 000954A4
-						/// @DnDArgument : "event" "1"
-						with(global.initiativecycle)
-						{
-							event_user(1);
-						}
+						/// @DnDArgument : "var" "cameramoving"
+						global.cameramoving = 0;
+						
+			
+						/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+						/// @DnDVersion : 1
+						/// @DnDHash : 3CB5AB8E
+						/// @DnDParent : 000954A4
+						/// @DnDArgument : "msg" ""Camera Move Complete""
+						show_debug_message(string("Camera Move Complete"));
+			
+						/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+						/// @DnDVersion : 1
+						/// @DnDHash : 0E46FA24
+						/// @DnDParent : 000954A4
+						/// @DnDArgument : "msg" "global.battlephase"
+						show_debug_message(string(global.battlephase));
 			
 			
 			}

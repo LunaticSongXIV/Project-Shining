@@ -2,8 +2,9 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 47A788BF
 /// @DnDArgument : "script" "find_party_member_sprite"
+/// @DnDArgument : "arg" "2"
 /// @DnDSaveInfo : "script" "8e14865c-6f14-4a48-9b4a-8ea233fbfcb7"
-script_execute(find_party_member_sprite);
+script_execute(find_party_member_sprite, 2);
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

@@ -1,8 +1,8 @@
 {
-    "id": "959243b0-4150-4a91-ae2a-54e950c1f59b",
+    "id": "993f8805-532f-423d-8c8b-0fbd5e9d2c4f",
     "modelName": "GMScript",
     "mvc": "1.0",
-    "name": "ui_show_unit_panel",
+    "name": "move_poll_keyboard",
     "IsCompatibility": false,
     "IsDnD": true
 }

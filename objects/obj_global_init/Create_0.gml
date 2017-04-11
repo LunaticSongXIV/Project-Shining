@@ -6,21 +6,26 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 5FA9F826
-/// @DnDInput : 5
-/// @DnDArgument : "value" "8"
-/// @DnDArgument : "value_1" "4"
-/// @DnDArgument : "value_2" "1"
-/// @DnDArgument : "value_4" "6"
+/// @DnDInput : 7
+/// @DnDArgument : "value" "16"
+/// @DnDArgument : "value_1" "8"
+/// @DnDArgument : "value_3" "12"
+/// @DnDArgument : "value_4" "-1"
+/// @DnDArgument : "value_5" "-1"
 /// @DnDArgument : "var" "movetime"
 /// @DnDArgument : "var_1" "movespeed"
-/// @DnDArgument : "var_2" "partysize"
-/// @DnDArgument : "var_3" "cameramoving"
-/// @DnDArgument : "var_4" "cameraspeed"
-global.movetime = 8;
-global.movespeed = 4;
-global.partysize = 1;
+/// @DnDArgument : "var_2" "cameramoving"
+/// @DnDArgument : "var_3" "cameraspeed"
+/// @DnDArgument : "var_4" "uiactivechar"
+/// @DnDArgument : "var_5" "battlemap"
+/// @DnDArgument : "var_6" "movecomplete"
+global.movetime = 16;
+global.movespeed = 8;
 global.cameramoving = 0;
-global.cameraspeed = 6;
+global.cameraspeed = 12;
+global.uiactivechar = -1;
+global.battlemap = -1;
+global.movecomplete = 0;
 
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Grid

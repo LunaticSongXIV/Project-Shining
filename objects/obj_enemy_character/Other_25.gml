@@ -2,8 +2,9 @@
 /// @DnDVersion : 1.1
 /// @DnDHash : 77273217
 /// @DnDArgument : "script" "find_enemy_sprite"
+/// @DnDArgument : "arg" "2"
 /// @DnDSaveInfo : "script" "35b24c7e-6eda-48c1-98ef-990c614dbcc3"
-script_execute(find_enemy_sprite);
+script_execute(find_enemy_sprite, 2);
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1

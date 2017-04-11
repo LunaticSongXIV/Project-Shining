@@ -1,8 +1,15 @@
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 7F9A2C28
+/// @DnDArgument : "msg" ""Execute Battle Phase 1""
+show_debug_message(string("Execute Battle Phase 1"));
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
-/// @DnDHash : 161550A6
-/// @DnDArgument : "var" "global.initiativecycle"
-global.initiativecycle = 0;
+/// @DnDHash : 44AB5D77
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.battlephase"
+global.battlephase = 1;
 
 
 /// @DnDAction : YoYo Games.Loops.Loop
@@ -183,8 +190,48 @@ else
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 /// @DnDVersion : 1
 /// @DnDHash : 31BFF098
-/// @DnDArgument : "msg" ""Call Camera""
-show_debug_message(string("Call Camera"));
+/// @DnDArgument : "msg" ""Call Camera Zoom to Target""
+show_debug_message(string("Call Camera Zoom to Target"));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 474B463D
+/// @DnDArgument : "expr" "global.initiativecycle"
+/// @DnDArgument : "var" "global.cameratarget"
+global.cameratarget = global.initiativecycle;
+
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 369D034A
+/// @DnDArgument : "expr" "1"
+/// @DnDArgument : "var" "global.cameramoving"
+global.cameramoving = 1;
+
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 24E24D6B
+/// @DnDArgument : "expr" "2"
+/// @DnDArgument : "var" "global.battlephase"
+global.battlephase = 2;
+
+
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 53B4B279
+/// @DnDArgument : "msg" ""global battlephase 2 set""
+show_debug_message(string("global battlephase 2 set"));
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 13BCBB6C
+/// @DnDApplyTo : 5db25750-6d0d-423c-8209-510cec854c0d
+/// @DnDArgument : "var" "selfphase"
+with(battle_main) {
+selfphase = 0;
+
+}
 
 /// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1

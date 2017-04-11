@@ -1,0 +1,14 @@
+Things that need to be saved for a working save system
+
+DSGrid    global.charstat (All Character Stats)
+DSMap     global.events (Tracks where the player is in story, what chests opened, etc.)
+DSMap     global.inventory (Track inventory)
+DSGrid     global.equipment (Track equipment)
+DSMap     global.abilities.characterid (If ability customization is going to be a thing)
+
+
+Additionally, for an in-combat save
+
+global.initiativecycle (Current Turn)
+DSGrid global.battlemap (Current Positions on Map)
+DSGrid global.terrainmap (Current Terrain on Map) [If modded]

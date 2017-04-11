@@ -3,11 +3,12 @@ Battle Engine Workflow
 Spawn Entities - Done
 Initiative Order - Done
 Camera Focus on Turn - Done
-UI Stat Block Current Turn
-Grid-based Tracking of Entities
-Movement on Turn
+UI Stat Block Current Turn - Done
+Grid-based Tracking of Entities - Backport relevant code into Spawn Entities - Done & Done
+Movement on Turn - WASD Support
 Unpathable Terrain / Collision with Others
 UI Show Moveable on Turn
+Clickable Movement
 Path Through Friendly
 Next Initiative In Order
 Modular Initiative From Movement and Base Initiative Loss
