@@ -21,6 +21,13 @@ battlemapheight = 6;
 /// @DnDSaveInfo : "script" "a8b94e81-2d56-4899-a6b1-ce2b4692e274"
 script_execute(initialize_battlemap_grid);
 
+/// @DnDAction : YoYo Games.Common.Execute_Script
+/// @DnDVersion : 1.1
+/// @DnDHash : 38A194F1
+/// @DnDArgument : "script" "init_terrainmap"
+/// @DnDSaveInfo : "script" "0bf8f1cf-e26e-4198-b24f-4a8345a44e56"
+script_execute(init_terrainmap);
+
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 716BE525
@@ -31,18 +38,6 @@ script_execute(initialize_battlemap_grid);
 
 {
 	ds_grid_set(global.battlemap, 4, 4, 0);
-}
-
-/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
-/// @DnDVersion : 1
-/// @DnDHash : 63B138B4
-/// @DnDArgument : "var" "global.battlemap"
-/// @DnDArgument : "x" "4"
-/// @DnDArgument : "y" "3"
-/// @DnDArgument : "value" "100"
-
-{
-	ds_grid_set(global.battlemap, 4, 3, 100);
 }
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value

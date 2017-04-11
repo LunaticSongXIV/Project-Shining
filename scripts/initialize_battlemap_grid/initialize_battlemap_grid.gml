@@ -55,6 +55,15 @@ global.valid_moves = ds_grid_create(battlemapwidth, battlemapheight);
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Grid
 /// @DnDVersion : 1
+/// @DnDHash : 72F3DF41
+/// @DnDArgument : "var" "global.terrainmap"
+/// @DnDArgument : "width" "battlemapwidth"
+/// @DnDArgument : "height" "battlemapheight"
+global.terrainmap = ds_grid_create(battlemapwidth, battlemapheight);
+
+
+/// @DnDAction : YoYo Games.Data Structures.Create_Grid
+/// @DnDVersion : 1
 /// @DnDHash : 57757102
 /// @DnDArgument : "var" "global.battlemap"
 /// @DnDArgument : "width" "battlemapwidth"

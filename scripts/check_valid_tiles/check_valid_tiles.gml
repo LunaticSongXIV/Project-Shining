@@ -146,10 +146,10 @@ if(argument0 == "move")
 															/// @DnDArgument : "var" "global.valid_moves"
 															/// @DnDArgument : "x" "scanx"
 															/// @DnDArgument : "y" "scany"
-															/// @DnDArgument : "value" "1"
+															/// @DnDArgument : "value" "ds_grid_get(global.terrainmap, scanx, scany)"
 															
 															{
-																ds_grid_set(global.valid_moves, scanx, scany, 1);
+																ds_grid_set(global.valid_moves, scanx, scany, ds_grid_get(global.terrainmap, scanx, scany));
 															}
 										
 										

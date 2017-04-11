@@ -50,17 +50,26 @@ if(myturn == 1)
 			myturn = 0;
 			
 	
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 19FBE976
+			/// @DnDParent : 4FB2E620
+			/// @DnDArgument : "expr" "(global.turninitcost + (global.moveinitcost / ds_grid_get(global.charstat, myself, 19) * global.distancemoved) + global.actinitcost) * 10"
+			/// @DnDArgument : "var" "initlost"
+			initlost = (global.turninitcost + (global.moveinitcost / ds_grid_get(global.charstat, myself, 19) * global.distancemoved) + global.actinitcost) * 10;
+			
+	
 			/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 			/// @DnDVersion : 1
-			/// @DnDHash : 59D83A43
+			/// @DnDHash : 0BAEB7AD
 			/// @DnDParent : 4FB2E620
 			/// @DnDArgument : "var" "global.charstat"
 			/// @DnDArgument : "x" "myself"
 			/// @DnDArgument : "y" "18"
-			/// @DnDArgument : "value" "0"
+			/// @DnDArgument : "value" "ds_grid_get(global.charstat, myself, 18) - initlost"
 			
 			{
-				ds_grid_set(global.charstat, myself, 18, 0);
+				ds_grid_set(global.charstat, myself, 18, ds_grid_get(global.charstat, myself, 18) - initlost);
 			}
 	
 			/// @DnDAction : YoYo Games.Common.Execute_Script

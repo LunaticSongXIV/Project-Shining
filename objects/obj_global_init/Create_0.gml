@@ -6,13 +6,15 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 5FA9F826
-/// @DnDInput : 11
+/// @DnDInput : 15
 /// @DnDArgument : "value" "16"
 /// @DnDArgument : "value_1" "8"
 /// @DnDArgument : "value_3" "12"
 /// @DnDArgument : "value_4" "-1"
 /// @DnDArgument : "value_5" "-1"
 /// @DnDArgument : "value_8" "-1"
+/// @DnDArgument : "value_12" "40"
+/// @DnDArgument : "value_13" "60"
 /// @DnDArgument : "var" "movetime"
 /// @DnDArgument : "var_1" "movespeed"
 /// @DnDArgument : "var_2" "cameramoving"
@@ -24,6 +26,10 @@ randomize();
 /// @DnDArgument : "var_8" "valid_moves"
 /// @DnDArgument : "var_9" "show_valid"
 /// @DnDArgument : "var_10" "nummovesleft"
+/// @DnDArgument : "var_11" "terrainmap"
+/// @DnDArgument : "var_12" "turninitcost"
+/// @DnDArgument : "var_13" "moveinitcost"
+/// @DnDArgument : "var_14" "actinitcost"
 global.movetime = 16;
 global.movespeed = 8;
 global.cameramoving = 0;
@@ -35,6 +41,10 @@ global.ui_show_stat_turn = 0;
 global.valid_moves = -1;
 global.show_valid = 0;
 global.nummovesleft = 0;
+global.terrainmap = 0;
+global.turninitcost = 40;
+global.moveinitcost = 60;
+global.actinitcost = 0;
 
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Grid

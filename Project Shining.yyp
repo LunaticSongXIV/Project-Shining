@@ -104,6 +104,14 @@
             }
         },
         {
+            "Key": "0bf8f1cf-e26e-4198-b24f-4a8345a44e56",
+            "Value": {
+                "id": "ade710da-da5c-4fe1-ba2e-e3f65ed299eb",
+                "resourcePath": "scripts\\init_terrainmap\\init_terrainmap.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "0c6c3721-eb10-4cbe-977f-b2621c7897f2",
             "Value": {
                 "id": "2605abd4-52a2-459e-9772-650059c88939",
@@ -232,6 +240,14 @@
             }
         },
         {
+            "Key": "32890da9-2f05-4643-8665-6b6fff94fde2",
+            "Value": {
+                "id": "78548836-0300-49ea-85e6-ffd20ff24112",
+                "resourcePath": "scripts\\battle_find_distance\\battle_find_distance.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "34756a7a-52d6-43b8-9517-87a93c66ab05",
             "Value": {
                 "id": "7c071aad-2bf7-4f2f-83a3-aeff65c6c541",
@@ -328,6 +344,14 @@
             }
         },
         {
+            "Key": "60b3da21-2d80-4d10-8af5-76ced0ce7131",
+            "Value": {
+                "id": "3ae6399f-1d29-45af-9951-dcc06aa9aece",
+                "resourcePath": "tilesets\\tile_passable\\tile_passable.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "6173f2b5-1e30-4c6f-89c5-c31c0080d09a",
             "Value": {
                 "id": "0eecfc63-a1eb-4656-960b-01ef6c6fe2fa",
@@ -340,6 +364,14 @@
             "Value": {
                 "id": "1e53a52d-b91c-4923-8847-c14b4c41abe4",
                 "resourcePath": "sprites\\spr_hero_1_left_1\\spr_hero_1_left_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "6fc38c8a-3cb9-49ee-b645-5cadb68b350b",
+            "Value": {
+                "id": "d77a2734-9a6a-4c20-b207-e1b901f39f0e",
+                "resourcePath": "sprites\\spr_tile_passable\\spr_tile_passable.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -882,7 +914,9 @@
         "fd3018ba-50a1-4267-9209-760b49c452ba",
         "d4bb39fa-a13b-4399-b874-81785a4a77f8",
         "c404b9f3-c85f-41fc-8974-e47216d55bd8",
-        "aa8074cc-f282-4f16-98da-d7a7eadb72f6"
+        "aa8074cc-f282-4f16-98da-d7a7eadb72f6",
+        "0bf8f1cf-e26e-4198-b24f-4a8345a44e56",
+        "32890da9-2f05-4643-8665-6b6fff94fde2"
     ],
     "tutorial": ""
 }

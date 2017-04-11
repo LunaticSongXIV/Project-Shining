@@ -108,41 +108,6 @@ while(true)
 										{
 											
 										
-															/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-															/// @DnDVersion : 1
-															/// @DnDHash : 09CAA0B5
-															/// @DnDParent : 73FE5656
-															/// @DnDArgument : "msg" ""Placing Enemy Character""
-															show_debug_message(string("Placing Enemy Character"));
-										
-															/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-															/// @DnDVersion : 1
-															/// @DnDHash : 7824B461
-															/// @DnDParent : 73FE5656
-															/// @DnDArgument : "msg" ""Grid X / Grid Y / Character ID""
-															show_debug_message(string("Grid X / Grid Y / Character ID"));
-										
-															/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-															/// @DnDVersion : 1
-															/// @DnDHash : 559A8E89
-															/// @DnDParent : 73FE5656
-															/// @DnDArgument : "msg" "placementx"
-															show_debug_message(string(placementx));
-										
-															/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-															/// @DnDVersion : 1
-															/// @DnDHash : 16B6DCE0
-															/// @DnDParent : 73FE5656
-															/// @DnDArgument : "msg" "placementy"
-															show_debug_message(string(placementy));
-										
-															/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-															/// @DnDVersion : 1
-															/// @DnDHash : 76622B65
-															/// @DnDParent : 73FE5656
-															/// @DnDArgument : "msg" "global.newchar"
-															show_debug_message(string(global.newchar));
-										
 															/// @DnDAction : YoYo Games.Instances.Create_Instance
 															/// @DnDVersion : 1
 															/// @DnDHash : 294AB7E3

@@ -1,4 +1,4 @@
-Battle Engine Workflow
+Battle Engine Workflow [12 / 54 Complete  1 / 54 On Hold]
 
 Spawn Entities - Done
 Initiative Order - Done
@@ -8,10 +8,11 @@ Grid-based Tracking of Entities - Backport relevant code into Spawn Entities - D
 Movement on Turn - WASD Support - Done
 Unpathable Terrain / Collision with Others - Done
 UI Show Moveable on Turn - Done
-Clickable Movement
-Path Through Friendly
-Next Initiative In Order
-Modular Initiative From Movement and Base Initiative Loss
+Clickable Movement - :::ON HOLD:::
+Path Through Friendly - Done
+Next Initiative In Order - Done
+Move Cancels - Done
+Modular Initiative From Movement and Base Initiative Loss - Done
 UI Show Predictive Turn Order (Determine turn order next x turns, restore using DS_MAP)
 Attack on Turn / Remove Dead Entity
 Battle End Condition (When All of Factions Are Dead)
