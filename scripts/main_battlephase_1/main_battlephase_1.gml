@@ -1,9 +1,3 @@
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 7F9A2C28
-/// @DnDArgument : "msg" ""Execute Battle Phase 1""
-show_debug_message(string("Execute Battle Phase 1"));
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 44AB5D77
@@ -51,34 +45,6 @@ while(true)
 	if(ds_grid_get(global.charstat,global.initiativecycle,18) >= 1000)
 	{
 		
-	
-			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-			/// @DnDVersion : 1
-			/// @DnDHash : 70C1E958
-			/// @DnDParent : 456ACAFA
-			/// @DnDArgument : "msg" ""Player Turn Found, Initiatives:""
-			show_debug_message(string("Player Turn Found, Initiatives:"));
-	
-			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-			/// @DnDVersion : 1
-			/// @DnDHash : 47667BF7
-			/// @DnDParent : 456ACAFA
-			/// @DnDArgument : "msg" "ds_grid_get(global.charstat, 0, 18)"
-			show_debug_message(string(ds_grid_get(global.charstat, 0, 18)));
-	
-			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-			/// @DnDVersion : 1
-			/// @DnDHash : 12CE882C
-			/// @DnDParent : 456ACAFA
-			/// @DnDArgument : "msg" "ds_grid_get(global.charstat, 1, 18)"
-			show_debug_message(string(ds_grid_get(global.charstat, 1, 18)));
-	
-			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-			/// @DnDVersion : 1
-			/// @DnDHash : 6A8BAF25
-			/// @DnDParent : 456ACAFA
-			/// @DnDArgument : "msg" "ds_grid_get(global.charstat, 20, 18)"
-			show_debug_message(string(ds_grid_get(global.charstat, 20, 18)));
 	
 			/// @DnDAction : YoYo Games.Loops.Break
 			/// @DnDVersion : 1
@@ -187,12 +153,6 @@ else
 
 }
 
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 31BFF098
-/// @DnDArgument : "msg" ""Call Camera Zoom to Target""
-show_debug_message(string("Call Camera Zoom to Target"));
-
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 474B463D
@@ -216,12 +176,6 @@ global.cameramoving = 1;
 /// @DnDArgument : "var" "global.battlephase"
 global.battlephase = 2;
 
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 53B4B279
-/// @DnDArgument : "msg" ""global battlephase 2 set""
-show_debug_message(string("global battlephase 2 set"));
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

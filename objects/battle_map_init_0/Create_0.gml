@@ -35,19 +35,19 @@ script_execute(initialize_battlemap_grid);
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 /// @DnDVersion : 1
-/// @DnDHash : 307AD669
+/// @DnDHash : 63B138B4
 /// @DnDArgument : "var" "global.battlemap"
-/// @DnDArgument : "x" "14"
-/// @DnDArgument : "y" "4"
-/// @DnDArgument : "value" "1"
+/// @DnDArgument : "x" "4"
+/// @DnDArgument : "y" "3"
+/// @DnDArgument : "value" "100"
 
 {
-	ds_grid_set(global.battlemap, 14, 4, 1);
+	ds_grid_set(global.battlemap, 4, 3, 100);
 }
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 /// @DnDVersion : 1
-/// @DnDHash : 663D01E7
+/// @DnDHash : 65C4F798
 /// @DnDArgument : "var" "global.battlemap"
 /// @DnDArgument : "x" "12"
 /// @DnDArgument : "y" "2"
@@ -59,14 +59,14 @@ script_execute(initialize_battlemap_grid);
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 /// @DnDVersion : 1
-/// @DnDHash : 63B138B4
+/// @DnDHash : 424297AD
 /// @DnDArgument : "var" "global.battlemap"
-/// @DnDArgument : "x" "4"
-/// @DnDArgument : "y" "3"
-/// @DnDArgument : "value" "100"
+/// @DnDArgument : "x" "14"
+/// @DnDArgument : "y" "4"
+/// @DnDArgument : "value" "1"
 
 {
-	ds_grid_set(global.battlemap, 4, 3, 100);
+	ds_grid_set(global.battlemap, 14, 4, 1);
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Script

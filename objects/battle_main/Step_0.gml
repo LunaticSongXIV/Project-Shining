@@ -34,13 +34,6 @@ if(global.battlephase == 2)
 			{
 				
 			
-						/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-						/// @DnDVersion : 1
-						/// @DnDHash : 6BB35579
-						/// @DnDParent : 5AAF0AD8
-						/// @DnDArgument : "msg" ""uiactive assigned""
-						show_debug_message(string("uiactive assigned"));
-			
 						/// @DnDAction : YoYo Games.Common.Variable
 						/// @DnDVersion : 1
 						/// @DnDHash : 1528240D

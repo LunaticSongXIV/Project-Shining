@@ -6,12 +6,13 @@ randomize();
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 5FA9F826
-/// @DnDInput : 7
+/// @DnDInput : 11
 /// @DnDArgument : "value" "16"
 /// @DnDArgument : "value_1" "8"
 /// @DnDArgument : "value_3" "12"
 /// @DnDArgument : "value_4" "-1"
 /// @DnDArgument : "value_5" "-1"
+/// @DnDArgument : "value_8" "-1"
 /// @DnDArgument : "var" "movetime"
 /// @DnDArgument : "var_1" "movespeed"
 /// @DnDArgument : "var_2" "cameramoving"
@@ -19,6 +20,10 @@ randomize();
 /// @DnDArgument : "var_4" "uiactivechar"
 /// @DnDArgument : "var_5" "battlemap"
 /// @DnDArgument : "var_6" "movecomplete"
+/// @DnDArgument : "var_7" "ui_show_stat_turn"
+/// @DnDArgument : "var_8" "valid_moves"
+/// @DnDArgument : "var_9" "show_valid"
+/// @DnDArgument : "var_10" "nummovesleft"
 global.movetime = 16;
 global.movespeed = 8;
 global.cameramoving = 0;
@@ -26,6 +31,10 @@ global.cameraspeed = 12;
 global.uiactivechar = -1;
 global.battlemap = -1;
 global.movecomplete = 0;
+global.ui_show_stat_turn = 0;
+global.valid_moves = -1;
+global.show_valid = 0;
+global.nummovesleft = 0;
 
 
 /// @DnDAction : YoYo Games.Data Structures.Create_Grid
@@ -190,5 +199,40 @@ global.charstat = ds_grid_create(100, 28);
 
 {
 	ds_grid_set(global.charstat, 20, 17, 9);
+}
+
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 461C5304
+/// @DnDArgument : "var" "global.charstat"
+/// @DnDArgument : "y" "19"
+/// @DnDArgument : "value" "3"
+
+{
+	ds_grid_set(global.charstat, 0, 19, 3);
+}
+
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 23B6CF33
+/// @DnDArgument : "var" "global.charstat"
+/// @DnDArgument : "x" "1"
+/// @DnDArgument : "y" "19"
+/// @DnDArgument : "value" "3"
+
+{
+	ds_grid_set(global.charstat, 1, 19, 3);
+}
+
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 7F5F7035
+/// @DnDArgument : "var" "global.charstat"
+/// @DnDArgument : "x" "20"
+/// @DnDArgument : "y" "19"
+/// @DnDArgument : "value" "3"
+
+{
+	ds_grid_set(global.charstat, 20, 19, 3);
 }
 

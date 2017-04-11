@@ -7,7 +7,7 @@ UI Stat Block Current Turn - Done
 Grid-based Tracking of Entities - Backport relevant code into Spawn Entities - Done & Done
 Movement on Turn - WASD Support - Done
 Unpathable Terrain / Collision with Others - Done
-UI Show Moveable on Turn
+UI Show Moveable on Turn - Done
 Clickable Movement
 Path Through Friendly
 Next Initiative In Order

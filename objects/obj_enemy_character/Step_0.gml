@@ -7,6 +7,15 @@ if(myturn == 1)
 {
 	
 
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 270E98B1
+	/// @DnDParent : 3F0FB4E4
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "var" "global.ui_show_stat_turn"
+	global.ui_show_stat_turn = 1;
+	
+
 	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 1F3677AD
@@ -24,6 +33,14 @@ if(myturn == 1)
 	if(global.movecomplete == 1)
 	{
 		
+	
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 02208283
+			/// @DnDParent : 4FB2E620
+			/// @DnDArgument : "var" "global.ui_show_stat_turn"
+			global.ui_show_stat_turn = 0;
+			
 	
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1

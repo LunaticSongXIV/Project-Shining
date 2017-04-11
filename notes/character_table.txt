@@ -1,18 +1,20 @@
 [Index] Stat
 
+* - These stats should appear in combat stat summaries
+
 Fundamentals
 
-[0] Name
+[0] Name  *
 [1] Race
-[2] Class
-[3] Level
+[2] Class *
+[3] Level *
 [4] Experience
 
 Vitals
 
-[5] Life / [6] Max Life
-[7] Stam / [8] Max Stam
-[9] Mana / [10] Max Mana
+[5] Life / [6] Max Life *
+[7] Stam / [8] Max Stam *
+[9] Mana / [10] Max Mana *
 
 Attributes
 
@@ -22,15 +24,15 @@ Attributes
 [14] Intelligence
 [15] Constitution
 [16] Piety
-[17] Speed / [18] Initiative
-[19] Movement
+[17] Speed / [18] Initiative *
+[19] Movement *
 
-Derived
+Combat
 
-[20] Attack
-[21] Defense
-[22] Accuracy
-[23] Evasion
+[20] Attack *
+[21] Defense *
+[22] Magic Attack * 
+[23] Magic Defense *
 [24] Parry %
 [25] Block %
 [26] Counter %
@@ -38,3 +40,48 @@ Derived
 System
 
 [27] Instance ID
+
+Hit and Crit
+
+[28] Accuracy
+[29] Evasion
+[30] Crit Chance
+
+Status Ailments (Turns remaining unless otherwise specified, values of -1 are applied by equipment and permanent)
+
+[31] Poison
+[32] Poison Hit	Damage taken at end of turn from poison
+[33] Confusion	AI takes turn with no IFF, Random ability selection
+[34] Sleep		Cannot move or act, wake on direct damage
+[35] Petrified	Cannot move or act, 75% Damage Reduction, Duration until end of battle
+[36] Rooted		Cannot move, turns remaining
+[37] Stunned	Cannot act, turns remaining
+[38] Decay		Cannot receive magical healing
+[39] Silence	Cannot cast magical abilities
+[40] Dead		Is Dead - Dead characters are removed from field.  This flag is for removing initiative cycling
+
+Debuffs			(Turns remaining, values of -1 are applied by equipment and permanent)
+
+[41] Slowed		30% reduction to initiative gain
+[42] Vulnerable	Def Down 30%
+[43] Doubting	M. Def Down 30%
+[44] Enfeeble	Atk Down 30%
+[45] Concussed	M. Atk Down 30%
+[46] Hindered	Move Down 2
+[47] Impaired	Accuracy -20
+[48] Sluggish	Evasion -20
+[49] Impotent	Cannot Crit
+[50] Fragile	30% more likely to receive critical hits
+
+Buffs			(Turns remaining, values of -1 are applied by equipment and permanent)
+
+[51] Haste		30% increase to initiative gain
+[52] Protected	Def Up 30%
+[53] Providence	M. Def Up 30%
+[54] Swole		Atk Up 30%
+[55] Inspired	M. Atk Up 30%
+[56] Swift		Move Up 2
+[57] Precision	Accuracy +20
+[58] Quickened	Evasion +20
+[59] Impervious	Bonus Critical Damage reduced by 50%
+[60] Empowered	30% increased crit chance
