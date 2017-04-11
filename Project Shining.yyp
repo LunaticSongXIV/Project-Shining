@@ -579,7 +579,7 @@
             "Key": "bba3c7cd-83db-45c0-a89f-51c34011d49b",
             "Value": {
                 "id": "2d27c9b4-4ce5-41ea-b484-d0d7faf34826",
-                "resourcePath": "scripts\\initialize_battlemap_placements\\initialize_battlemap_placements.yy",
+                "resourcePath": "scripts\\battlemap_placements\\battlemap_placements.yy",
                 "resourceType": "GMScript"
             }
         },
@@ -613,6 +613,14 @@
                 "id": "b3ad0844-cadf-476a-a40c-2bd300deb287",
                 "resourcePath": "tilesets\\tile_world\\tile_world.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "c9deff59-93ea-4e27-af78-59f7e880cf33",
+            "Value": {
+                "id": "d906d994-b1e6-4ee2-89a5-9ca3ea7bb873",
+                "resourcePath": "scripts\\check_valid_move\\check_valid_move.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -813,7 +821,8 @@
         "309a8748-b9f2-4a17-80ab-e22275b7b56f",
         "a8b94e81-2d56-4899-a6b1-ce2b4692e274",
         "bba3c7cd-83db-45c0-a89f-51c34011d49b",
-        "993f8805-532f-423d-8c8b-0fbd5e9d2c4f"
+        "993f8805-532f-423d-8c8b-0fbd5e9d2c4f",
+        "c9deff59-93ea-4e27-af78-59f7e880cf33"
     ],
     "tutorial": ""
 }

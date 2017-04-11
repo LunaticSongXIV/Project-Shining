@@ -25,6 +25,12 @@ show_debug_message(string(myself));
 /// @DnDArgument : "msg" "setinitiative"
 show_debug_message(string(setinitiative));
 
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 0594B6EA
+/// @DnDArgument : "msg" "self.id"
+show_debug_message(string(self.id));
+
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 /// @DnDVersion : 1
 /// @DnDHash : 1C96D1F7

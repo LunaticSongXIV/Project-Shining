@@ -33,6 +33,19 @@ if(myturn == 1)
 			myturn = 0;
 			
 	
+			/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+			/// @DnDVersion : 1
+			/// @DnDHash : 59D83A43
+			/// @DnDParent : 4FB2E620
+			/// @DnDArgument : "var" "global.charstat"
+			/// @DnDArgument : "x" "myself"
+			/// @DnDArgument : "y" "18"
+			/// @DnDArgument : "value" "0"
+			
+			{
+				ds_grid_set(global.charstat, myself, 18, 0);
+			}
+	
 			/// @DnDAction : YoYo Games.Common.Execute_Script
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 1119EA67

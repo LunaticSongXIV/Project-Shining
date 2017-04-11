@@ -1,23 +1,24 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 63FEA530
-/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "expr" "16"
 /// @DnDArgument : "var" "battlemapwidth"
-battlemapwidth = 50;
+battlemapwidth = 16;
 
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 44227F69
-/// @DnDArgument : "expr" "50"
+/// @DnDArgument : "expr" "6"
 /// @DnDArgument : "var" "battlemapheight"
-battlemapheight = 50;
+battlemapheight = 6;
 
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 7DD5C097
 /// @DnDArgument : "script" "initialize_battlemap_grid"
+/// @DnDSaveInfo : "script" "a8b94e81-2d56-4899-a6b1-ce2b4692e274"
 script_execute(initialize_battlemap_grid);
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
@@ -25,11 +26,11 @@ script_execute(initialize_battlemap_grid);
 /// @DnDHash : 716BE525
 /// @DnDArgument : "var" "global.battlemap"
 /// @DnDArgument : "x" "4"
-/// @DnDArgument : "y" "3"
+/// @DnDArgument : "y" "4"
 /// @DnDArgument : "value" "0"
 
 {
-	ds_grid_set(global.battlemap, 4, 3, 0);
+	ds_grid_set(global.battlemap, 4, 4, 0);
 }
 
 /// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
@@ -56,12 +57,24 @@ script_execute(initialize_battlemap_grid);
 	ds_grid_set(global.battlemap, 12, 2, 20);
 }
 
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 63B138B4
+/// @DnDArgument : "var" "global.battlemap"
+/// @DnDArgument : "x" "4"
+/// @DnDArgument : "y" "3"
+/// @DnDArgument : "value" "100"
+
+{
+	ds_grid_set(global.battlemap, 4, 3, 100);
+}
+
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 31DE1BF2
-/// @DnDArgument : "script" "initialize_battlemap_placements"
+/// @DnDArgument : "script" "battlemap_placements"
 /// @DnDSaveInfo : "script" "bba3c7cd-83db-45c0-a89f-51c34011d49b"
-script_execute(initialize_battlemap_placements);
+script_execute(battlemap_placements);
 
 /// @DnDAction : YoYo Games.Instances.Call_User_Event
 /// @DnDVersion : 1
