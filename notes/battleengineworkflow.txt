@@ -1,4 +1,4 @@
-Battle Engine Workflow [12 / 54 Complete  1 / 54 On Hold]
+Battle Engine Workflow [13 / 54 Complete  1 / 54 On Hold]
 
 Spawn Entities - Done
 Initiative Order - Done
@@ -13,7 +13,7 @@ Path Through Friendly - Done
 Next Initiative In Order - Done
 Move Cancels - Done
 Modular Initiative From Movement and Base Initiative Loss - Done
-UI Show Predictive Turn Order (Determine turn order next x turns, restore using DS_MAP)
+UI Show Predictive Turn Order - Done
 Attack on Turn / Remove Dead Entity
 Battle End Condition (When All of Factions Are Dead)
 Health and Random Damage

@@ -139,9 +139,9 @@ if(moveok == 1)
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 7EF39B2D
 			/// @DnDParent : 169DAA63
-			/// @DnDArgument : "script" "battle_find_distance"
+			/// @DnDArgument : "script" "find_distance"
 			/// @DnDSaveInfo : "script" "32890da9-2f05-4643-8665-6b6fff94fde2"
-			script_execute(battle_find_distance);
+			script_execute(find_distance);
 	
 			/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 			/// @DnDVersion : 1
@@ -267,9 +267,9 @@ if(moveok == 1)
 			/// @DnDHash : 6BAF0560
 			/// @DnDParent : 12FA5BC3
 			/// @DnDArgument : "var" "validmove"
-			/// @DnDArgument : "script" "check_valid_move"
+			/// @DnDArgument : "script" "is_move_valid"
 			/// @DnDSaveInfo : "script" "c9deff59-93ea-4e27-af78-59f7e880cf33"
-			validmove = script_execute(check_valid_move);
+			validmove = script_execute(is_move_valid);
 	
 			/// @DnDAction : YoYo Games.Common.If_Variable
 			/// @DnDVersion : 1

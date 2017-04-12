@@ -20,9 +20,9 @@ if(myturn == 1)
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 5E745E63
 	/// @DnDParent : 78EE5136
-	/// @DnDArgument : "script" "move_poll_keyboard"
+	/// @DnDArgument : "script" "battle_move"
 	/// @DnDSaveInfo : "script" "993f8805-532f-423d-8c8b-0fbd5e9d2c4f"
-	script_execute(move_poll_keyboard);
+	script_execute(battle_move);
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -102,9 +102,9 @@ if(myturn == 1)
 			/// @DnDVersion : 1.1
 			/// @DnDHash : 6835691E
 			/// @DnDParent : 41F5BB79
-			/// @DnDArgument : "script" "main_battlephase_1"
+			/// @DnDArgument : "script" "next_turn"
 			/// @DnDSaveInfo : "script" "0fe46899-5d60-428b-a93d-27aff7d9aaa8"
-			script_execute(main_battlephase_1);
+			script_execute(next_turn);
 	
 	
 	}
