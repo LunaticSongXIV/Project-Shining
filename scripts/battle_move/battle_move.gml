@@ -18,6 +18,15 @@ if(moveok == 1)
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
+	/// @DnDHash : 75C75A02
+	/// @DnDParent : 40105769
+	/// @DnDArgument : "expr" "1"
+	/// @DnDArgument : "var" "global.showturnorder"
+	global.showturnorder = 1;
+	
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
 	/// @DnDHash : 4EA9C871
 	/// @DnDParent : 40105769
 	/// @DnDArgument : "expr" "-1"

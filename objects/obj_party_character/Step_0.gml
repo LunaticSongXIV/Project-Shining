@@ -59,6 +59,24 @@ if(myturn == 1)
 			initlost = (global.turninitcost + (global.moveinitcost / ds_grid_get(global.charstat, myself, 19) * global.distancemoved) + global.actinitcost) * 10;
 			
 	
+			/// @DnDAction : YoYo Games.Types.Number_To_String
+			/// @DnDVersion : 1
+			/// @DnDHash : 45F27905
+			/// @DnDParent : 41F5BB79
+			/// @DnDArgument : "var" "initlostdebug"
+			/// @DnDArgument : "value" "initlost"
+			
+			{
+				initlostdebug = string(initlost);
+			}
+	
+			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+			/// @DnDVersion : 1
+			/// @DnDHash : 65626882
+			/// @DnDParent : 41F5BB79
+			/// @DnDArgument : "msg" ""Initiative Lost: " + initlostdebug"
+			show_debug_message(string("Initiative Lost: " + initlostdebug));
+	
 			/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
 			/// @DnDVersion : 1
 			/// @DnDHash : 4DD19A9C
@@ -71,6 +89,14 @@ if(myturn == 1)
 			{
 				ds_grid_set(global.charstat, myself, 18, ds_grid_get(global.charstat, myself, 18) - initlost);
 			}
+	
+			/// @DnDAction : YoYo Games.Common.Variable
+			/// @DnDVersion : 1
+			/// @DnDHash : 14F66F68
+			/// @DnDParent : 41F5BB79
+			/// @DnDArgument : "var" "global.turnorderdone"
+			global.turnorderdone = 0;
+			
 	
 			/// @DnDAction : YoYo Games.Common.Execute_Script
 			/// @DnDVersion : 1.1
