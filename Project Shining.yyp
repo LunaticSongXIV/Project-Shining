@@ -195,7 +195,7 @@
             "Key": "21b2c5e9-5fab-48f6-9f60-75ca3edbbe32",
             "Value": {
                 "id": "cd7b4899-cb0f-4ede-a609-ba2abbe25d5b",
-                "resourcePath": "sprites\\spr_tile_castle_1\\spr_tile_castle_1.yy",
+                "resourcePath": "sprites\\spr_tile_castle_128\\spr_tile_castle_128.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -320,6 +320,14 @@
             }
         },
         {
+            "Key": "37c89b3f-bfcf-4a01-a487-8f0adfde92e6",
+            "Value": {
+                "id": "b40887e4-0777-4c51-bf42-41ba293fc0bd",
+                "resourcePath": "tilesets\\tile_dungeon_128\\tile_dungeon_128.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "40c7a7b6-f0d0-4434-904d-6e6661e49863",
             "Value": {
                 "id": "11824db2-362d-4f46-86a0-b11608e5324c",
@@ -333,6 +341,14 @@
                 "id": "32e0e6ca-552f-4003-8532-a9012a3f3a07",
                 "resourcePath": "views\\46a6a811-6ce4-44d0-a88f-4214ed50cc59.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "47236c73-d994-480c-8d6a-fdb624ac85ef",
+            "Value": {
+                "id": "ba896949-3cab-4b38-9fc8-6fcc0be05905",
+                "resourcePath": "tilesets\\tile_outdoors_128\\tile_outdoors_128.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -528,6 +544,14 @@
             }
         },
         {
+            "Key": "9375cfef-6149-497a-a8cd-9f3ec67c6dbf",
+            "Value": {
+                "id": "eebe4268-9246-4951-8967-e7fa95a5c350",
+                "resourcePath": "sprites\\spr_tile_dungeon_128\\spr_tile_dungeon_128.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "959243b0-4150-4a91-ae2a-54e950c1f59b",
             "Value": {
                 "id": "882fa315-7abb-46c9-b5b9-7901e16a9e6b",
@@ -565,6 +589,14 @@
                 "id": "428cc37a-8238-4e08-80a1-a75d6e20ba37",
                 "resourcePath": "notes\\obj_battle_main.yy",
                 "resourceType": "GMNotes"
+            }
+        },
+        {
+            "Key": "9f631641-afcf-43d7-b8f7-9af3b80e8e1c",
+            "Value": {
+                "id": "3cb73f64-74d1-4b37-a162-6ec26ed1e49e",
+                "resourcePath": "tilesets\\tile_castle_128\\tile_castle_128.yy",
+                "resourceType": "GMTileSet"
             }
         },
         {
@@ -828,6 +860,14 @@
             "Value": {
                 "id": "f502969a-b1d3-4f27-a6a9-604b9e5213fe",
                 "resourcePath": "sprites\\spr_tile_water\\spr_tile_water.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dce60fad-e8d5-4891-b3e4-e34156932758",
+            "Value": {
+                "id": "1f95b577-185d-4113-80b6-18bc09761738",
+                "resourcePath": "sprites\\spr_tile_outdoors_128\\spr_tile_outdoors_128.yy",
                 "resourceType": "GMSprite"
             }
         },
