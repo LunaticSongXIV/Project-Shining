@@ -376,6 +376,14 @@
             }
         },
         {
+            "Key": "589c9374-69ce-4a64-95b0-7d6714f8554f",
+            "Value": {
+                "id": "91c6533d-02ba-4577-96c5-c6889d3ecca5",
+                "resourcePath": "notes\\TestRoom_128.yy",
+                "resourceType": "GMNotes"
+            }
+        },
+        {
             "Key": "592c8eeb-b7a5-4332-8daa-6fd871c41d24",
             "Value": {
                 "id": "f8c0c6c8-617a-4f5d-9b57-90f29bc29933",
