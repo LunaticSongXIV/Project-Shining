@@ -113,13 +113,13 @@ if(global.uiactivechar == myself)
 	/// @DnDHash : 37688E83
 	/// @DnDInput : 4
 	/// @DnDParent : 3888CAF5
-	/// @DnDArgument : "script" "check_valid_tiles"
+	/// @DnDArgument : "script" "check_valid_targets"
 	/// @DnDArgument : "arg" ""move""
 	/// @DnDArgument : "arg_1" "selfgridx"
 	/// @DnDArgument : "arg_2" "selfgridy"
 	/// @DnDArgument : "arg_3" "myself"
 	/// @DnDSaveInfo : "script" "d4bb39fa-a13b-4399-b874-81785a4a77f8"
-	script_execute(check_valid_tiles, "move", selfgridx, selfgridy, myself);
+	script_execute(check_valid_targets, "move", selfgridx, selfgridy, myself);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1

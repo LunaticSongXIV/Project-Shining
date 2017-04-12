@@ -101,7 +101,7 @@ global.initiativecycle = 0;
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 44DCB263
-/// @DnDArgument : "script" "main_battlephase_1"
+/// @DnDArgument : "script" "next_turn"
 /// @DnDSaveInfo : "script" "0fe46899-5d60-428b-a93d-27aff7d9aaa8"
-script_execute(main_battlephase_1);
+script_execute(next_turn);
 
