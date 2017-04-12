@@ -360,6 +360,14 @@
             }
         },
         {
+            "Key": "496d18d5-3167-4be4-aed7-3a9aeda1be19",
+            "Value": {
+                "id": "6641c212-f8ac-4369-8779-1827ae9ee2e1",
+                "resourcePath": "tilesets\\tile_house_128\\tile_house_128.yy",
+                "resourceType": "GMTileSet"
+            }
+        },
+        {
             "Key": "57f47894-a49b-4100-bd34-4ec175303ec7",
             "Value": {
                 "id": "89f93eae-b064-4c5c-a499-f7db11ff7695",
@@ -461,6 +469,14 @@
                 "id": "611c70a8-fa21-4703-8ae3-2d7d9b7e6bf5",
                 "resourcePath": "objects\\ui_statpanel_controller\\ui_statpanel_controller.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "81e15a82-ee7e-4de8-b6b6-f49443b6a0a1",
+            "Value": {
+                "id": "22acc35b-df74-4fd8-b913-cbe81e6d5c82",
+                "resourcePath": "rooms\\testroom_128\\testroom_128.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -909,6 +925,14 @@
                 "id": "ac361930-cbf7-4903-b408-c8581a1ffed6",
                 "resourcePath": "fonts\\UI_stat_panel\\UI_stat_panel.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "e4177b7b-20a1-4783-9a90-21874384a7e0",
+            "Value": {
+                "id": "ebffd705-dbf2-4468-b67f-be7f22322c84",
+                "resourcePath": "sprites\\spr_tile_house_128\\spr_tile_house_128.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
