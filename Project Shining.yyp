@@ -192,6 +192,14 @@
             }
         },
         {
+            "Key": "21b2c5e9-5fab-48f6-9f60-75ca3edbbe32",
+            "Value": {
+                "id": "cd7b4899-cb0f-4ede-a609-ba2abbe25d5b",
+                "resourcePath": "sprites\\spr_tile_castle_1\\spr_tile_castle_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "274c52e1-e6eb-4584-8ec5-dbd170848ed0",
             "Value": {
                 "id": "b498aaa0-4c01-413d-b5e6-4d624d4e47cc",
