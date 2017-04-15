@@ -4,9 +4,9 @@
 /// @DnDArgument : "var" "movedx"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "script" "make_absolute"
-/// @DnDArgument : "arg" "nextgridx - selfgridx"
+/// @DnDArgument : "arg" "argument0 - argument2"
 /// @DnDSaveInfo : "script" "c404b9f3-c85f-41fc-8974-e47216d55bd8"
-var movedx = script_execute(make_absolute, nextgridx - selfgridx);
+var movedx = script_execute(make_absolute, argument0 - argument2);
 
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
@@ -14,15 +14,13 @@ var movedx = script_execute(make_absolute, nextgridx - selfgridx);
 /// @DnDArgument : "var" "movedy"
 /// @DnDArgument : "var_temp" "1"
 /// @DnDArgument : "script" "make_absolute"
-/// @DnDArgument : "arg" "nextgridy - selfgridy"
+/// @DnDArgument : "arg" "argument1 - argument3"
 /// @DnDSaveInfo : "script" "c404b9f3-c85f-41fc-8974-e47216d55bd8"
-var movedy = script_execute(make_absolute, nextgridy - selfgridy);
+var movedy = script_execute(make_absolute, argument1 - argument3);
 
-/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDAction : YoYo Games.Common.Return
 /// @DnDVersion : 1
-/// @DnDHash : 5A79C434
-/// @DnDArgument : "expr" "movedx + movedy"
-/// @DnDArgument : "var" "global.distancemoved"
-global.distancemoved = movedx + movedy;
-
+/// @DnDHash : 321EC1BD
+/// @DnDArgument : "value" "movedx + movedy"
+return movedx + movedy;
 

@@ -1,0 +1,35 @@
+Combat Variables are variables that contain information relevant to specific combat actions.
+
+attack_area_type
+
+-1 = Movement
+ 0 = Single Target
+ 1 = Ranged Single Target
+ 2 = PBAoE
+ 3 = Ranged AoE
+ 4 = Ray
+ 5 = Cone
+ 6 = Unique AoE
+ 
+global.battle_state is a variable that sets which phase of the battle engine is currently running.
+
+Controlling this variable is vital, any map with a battle controller will automatically engage > 0
+Revising this variable
+
+battle_state 0 = No battle is currently in progress
+battle_state 1 = Determine which character's turn should happen next - Set by Character after Eval and BMM
+battle_state 2 = Camera zoom to next - Set by cursor_controller UE0
+battle_state 3 = Movement - Set by battle_main
+battle_state 4 = Action Cross Select State - Set by ... ?
+battle_state 5 = Menu Selection - Set by ui_cross_menu
+battle_state 6 = Target Select - Set by ui_cross_menu or ui_ability_menu(?)
+battle_state 7 = Battle Scene - Set by target selection (entity name unknown)
+battle_state 8 = Evaluation - Set by ui_cross_menu or battle_scene
+
+global.battle_pause
+
+All battle_state checks will also check for Battle Pause condition, which is set if a UI element should be taking the player's focus.
+
+global.distancemoved
+
+Used to determine distance moved for initiative purposes.

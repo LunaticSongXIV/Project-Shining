@@ -1,3 +1,0 @@
-I made the room so that we can test a number of things, like hight mods for archers and such.
-and moving from one part of the map to another level in the map (like the ramparts of the castle)
-if need be we can talk more about this later.

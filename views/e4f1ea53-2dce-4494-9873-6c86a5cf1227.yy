@@ -7,10 +7,11 @@
         "e93f2f36-4e4e-4642-845f-4ba36f5e070f",
         "5db25750-6d0d-423c-8209-510cec854c0d",
         "8167a5b1-79b4-4bea-ac2b-3f840be0dbc6",
-        "084a1d99-55f1-436f-9092-cc6f757c1996"
+        "084a1d99-55f1-436f-9092-cc6f757c1996",
+        "91bfeba1-1d89-43b3-8b55-ef28905ef29a"
     ],
     "filterType": "GMObject",
-    "folderName": "all_battle_map_prereq",
+    "folderName": "02_battle_map_objects",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

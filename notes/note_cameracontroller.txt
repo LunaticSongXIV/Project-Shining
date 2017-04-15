@@ -1,1 +1,0 @@
-cameracontroller should be movable with both controller and mouse

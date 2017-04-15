@@ -1,0 +1,41 @@
+00_global_init - Contains initialization modules for global (new game) and global (load save)
+
+obj_global_init
+
+Contains all global initialization options, calls the init_character_stats function
+
+01_battle_map_modules - Contains modules that define each battle map's characteristics and starts the battle
+
+bmm_xxx
+
+Calls init_battlemap, init_terrainmap, place_characters, UE15 (Player and Enemy), next_turn
+
+02_battle_map_objects - Contains all objects that are visible to the player in a combat
+
+cursor_controller
+
+Acts as both cursor and camera focus.
+The camera will follow this at all times, and it will be made invisible when needed.
+UE1 is not entity specific but is exclusively useful to this entity.
+
+battle_main
+
+Handles many battle functions and battle state updates
+
+ui_statpanel_controller
+
+Draws stat panels as requested
+
+ui_valid_grid_highlight
+
+Highlights valid grid tiles when needed
+
+ui_cross_menu
+
+Handles the UI Cross Menu
+
+03_game_entities
+
+obj_enemy_character / player_character
+
+These entities represent map characters on the map and contain much of the animation and movement code for such entities

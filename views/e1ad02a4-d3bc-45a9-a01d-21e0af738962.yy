@@ -6,10 +6,11 @@
     "children": [
         "1d42e63a-e29d-49e3-bfdf-77e59c59b806",
         "b759897c-c0d7-476e-8073-c93858e0c549",
-        "96ddc5ff-8ff3-45c8-a6b1-b2696088318c"
+        "96ddc5ff-8ff3-45c8-a6b1-b2696088318c",
+        "ff5c3ffe-075f-41af-8a9a-986497f401fe"
     ],
     "filterType": "GMObject",
-    "folderName": "game_entities",
+    "folderName": "03_game_entities",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

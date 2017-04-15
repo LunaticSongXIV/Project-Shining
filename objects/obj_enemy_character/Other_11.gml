@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 79BB0228
-/// @DnDArgument : "var" "global.uiactivechar"
+/// @DnDArgument : "var" "global.active_turn_char"
 /// @DnDArgument : "value" "myself"
-if(global.uiactivechar == myself)
+if(global.active_turn_char == myself)
 {
 	
 
@@ -114,29 +114,12 @@ if(global.uiactivechar == myself)
 	/// @DnDInput : 4
 	/// @DnDParent : 79BB0228
 	/// @DnDArgument : "script" "check_valid_targets"
-	/// @DnDArgument : "arg" ""move""
+	/// @DnDArgument : "arg" "-1"
 	/// @DnDArgument : "arg_1" "selfgridx"
 	/// @DnDArgument : "arg_2" "selfgridy"
 	/// @DnDArgument : "arg_3" "myself"
 	/// @DnDSaveInfo : "script" "d4bb39fa-a13b-4399-b874-81785a4a77f8"
-	script_execute(check_valid_targets, "move", selfgridx, selfgridy, myself);
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 32CAA00C
-	/// @DnDParent : 79BB0228
-	/// @DnDArgument : "expr" "ds_grid_get(global.charstat, myself, 19)"
-	/// @DnDArgument : "var" "global.nummovesleft"
-	global.nummovesleft = ds_grid_get(global.charstat, myself, 19);
-	
-
-	/// @DnDAction : YoYo Games.Common.Variable
-	/// @DnDVersion : 1
-	/// @DnDHash : 521E4F44
-	/// @DnDParent : 79BB0228
-	/// @DnDArgument : "var" "global.movecomplete"
-	global.movecomplete = 0;
-	
+	script_execute(check_valid_targets, -1, selfgridx, selfgridy, myself);
 
 
 }

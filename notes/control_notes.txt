@@ -1,0 +1,13 @@
+Controls
+
+Mouse:  Move with Cursor, LMB - Confirm, RMB - Cancel, MMB - Release, Main Menu - None
+Keyboard:  Move with WSAD -or- arrows, Space Confirm, BkSp Cancel, TAB Release, ESC Menu
+Controller:  Move with Arrow Pad or Stick, A Confirm, B Cancel, X Release, Start Menu
+
+Extra Functions:
+
+Jump Next Ally  - >, RB
+Jump Next Enemy - ], RT
+Jump Prev Ally  - <, LB
+Jump Prev Enemy - [, LT
+

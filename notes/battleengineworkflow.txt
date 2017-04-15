@@ -1,36 +1,45 @@
-Battle Engine Workflow [13 / 54 Complete  1 / 54 On Hold]
+Battle Engine Workflow 
+[15 / 64 Completed Tasks]
+[0 / 11 Controller and Mouse Support Completed]  
+
+** Things that need all input support
 
 Spawn Entities - Done
 Initiative Order - Done
 Camera Focus on Turn - Done
 UI Stat Block Current Turn - Done
 Grid-based Tracking of Entities - Backport relevant code into Spawn Entities - Done & Done
-Movement on Turn - WASD Support - Done
+Movement on Turn - WASD Support Done **  Mouse and Controller Support Needed ::ON HOLD::
 Unpathable Terrain / Collision with Others - Done
 UI Show Moveable on Turn - Done
-Clickable Movement - :::ON HOLD:::
 Path Through Friendly - Done
 Next Initiative In Order - Done
-Move Cancels - Done
+Move Cancels - WASD Support Done **  Mouse and Controller Support Needed ::ON HOLD::
 Modular Initiative From Movement and Base Initiative Loss - Done
 UI Show Predictive Turn Order - Done
-Attack on Turn / Remove Dead Entity
-Battle End Condition (When All of Factions Are Dead)
+UI Cross Menu ** - Done
+UI Show Valid Targets (Melee) - Done
+Select Target Non-Move **
+Attack Target **
+Cut to Battle Scene !!!Engine side support, battle scenes handled as separate project!!!
+Remove Dead Entity From Map
+Battle End Condition (Only One Faction Left)
 Health and Random Damage
-UI Free Cursor from Active Character
-UI Stat Block on Mouseover Target
 Experience Gain and Level Up
+UI Free Cursor from Active Character **
+UI Stat Block on Mouseover Target **
 UI Character Status Screen
-Inventory and Equipment w/ UI
-Cut to Battle Scene (Engine side only, battle scenes handled as separate project)
-UI Ability Menu (Default Melee Attack)
-Ability Framework (M)
+Inventory Tracking
+Inventory UI **
+Equipment Tracking
+Equipment UI **
+UI Ability Menu (Default Melee Attack Clone) **
+Ability Framework (Melee)
 Stamina and Mana
-UI Show Valid Targets (M)
 Ranged Basic Attacks (Infinite Range)
 Ranged Basic Attacks (Limited Range)
-Ability Framework (R)
-UI Show Valid Target (R)
+UI Show Valid Targets (Ranged)
+Ability Framework (Ranged)
 AF (PBAoE)
 UI SVT (PBAoE)
 AF (RAoE)
@@ -38,19 +47,24 @@ UI SVT (RAoE)
 AF (Items)
 UI SVT (Items)
 Healing Abilities
+Healing Items
 Ability Framework (Eq-Based Abilities)
-Status Ailments Framework
+Status Ailments Framework (Application and Turn Tracking)
+Status Ailments Implementation (Actual Effect Functions)
+Require Confirm Action **
+Full Turn Cancel (Cancelling Move During Action Selection) **
 AI Basic Movement
 AI Target IFF
+AI Multiple Factions
 AI Melee
-AI Target Selection
-AI Predictive Evaluation of Targets
-AI Advanced Movement for Optimal AoE Placements
+AI Target Prioritization
+AI Approach Logic (Movement toward enemies out of range)
+AI Predictive Evaluation of Targets (Check potential damage, choose from best options)
+AI Advanced Movement and Targetting for AoE Placements (Maximize AoE damage potential)
 AI Ranged
 AI M Ability
 AI R Ability
 AI PBAoE
 AI RAoE
 AI Items
-AI Flee to Heal
-AI Multiple Factions
+AI Flee to Heal (AI Implementation for Wounded Units to Retreat Toward Allied Healers)

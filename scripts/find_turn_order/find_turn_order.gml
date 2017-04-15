@@ -1,9 +1,9 @@
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 198A28BA
-/// @DnDArgument : "var" "global.turnorderdone"
+/// @DnDArgument : "var" "global.ui_turn_order_found"
 /// @DnDArgument : "value" "1"
-if(global.turnorderdone == 1)
+if(global.ui_turn_order_found == 1)
 {
 	
 
@@ -579,8 +579,8 @@ while(true)
 	/// @DnDHash : 5EA517F1
 	/// @DnDParent : 1C25E589
 	/// @DnDArgument : "expr" "1"
-	/// @DnDArgument : "var" "global.turnorderdone"
-	global.turnorderdone = 1;
+	/// @DnDArgument : "var" "global.ui_turn_order_found"
+	global.ui_turn_order_found = 1;
 	
 
 	/// @DnDAction : YoYo Games.Common.Variable

@@ -1,0 +1,107 @@
+input_handler
+
+Handles controller and mouse input to global variables for universal use.
+
+highlight_valid_tiles
+
+Draws the highlighted tiles for valid moves.
+
+draw_phantom
+
+Draws the shadow of the player's previous position
+
+find_turn_order BUGGY BUGGY BUGGY
+
+Determines the next five characters in turn order, and draws them to the screen.
+This function is buggy when multiple characters take turns in the next initiative cycle.
+
+find_enemy_sprite  BUGGY BUGGY BUGGY
+
+Requires argument for direction of sprite.  0 = up, 1 = right, 2 = down, 3 = left
+
+Load the correct sprite for an enemy combatant based on the character ID.
+We need to ID enemy character sprites by something other than battle ID.
+Unlike Party characters, enemy characters may have dynamic identities on a given battle ID.
+
+find_party_sprite
+
+Requires argument for direction of sprite.  0 = up, 1 = right, 2 = down, 3 = left
+
+Loads the correct sprite for a party member based on the character ID.
+
+get_xy_pixel_from_instid
+
+Can be used to find the exact X or Y pixel of something by it's instance ID.
+Can be used to find X and Y from Instance ID stored in charstat instead of scanning battlemap.
+Primarily used by Cursor function to zoom to a character that has just started its turn.
+
+find_distance
+
+???What calls find_distance, and why does it use a global variable instead of RETURNing values?
+This should be adjusted to take 4 arguments and measure distance between any two points, 
+or renamed to clarify purpose, as it does not currently generically measure distance.
+
+make_absolute
+
+Takes any number and returns the absolute value.  Requires input argument.
+
+find_grid_axis_value
+
+Requires input argument of an X or Y coordinate, returns the grid value of that coordinate.
+Currently requires a SQUARED GRID and is Axis independent.
+
+find_x_in_window / find_y_in_window UNTESTED UNTESTED UNTESTED
+
+Find the X or Y position of a given pixel relation to the current window.
+
+init_battlemap
+
+Initializes all battle-related grids.
+
+place_characters
+
+Places characters in starting positions during map initialization
+
+battle_set_initiative
+
+Randomizes and sets starting initiative value for unit that calls it.
+
+init_terrainmap
+
+Reads walkable terrain from layer "Passable" and writes values to terrainmap grid.
+
+init_character_stats
+
+Writes starting character stats to charstat.
+Eventually, this should be little more than name, stat-growth, class, and race, with other stats derived from another script.
+This cannot be fixed until after equipment is implemented.
+
+next_turn
+
+Processes initiative to determine what character's turn comes up.
+
+battle_move
+
+Executes move function for character entities in battle_phase 3.1
+
+check_valid_targets  NEEDS REVISION
+
+Sets global.valid_moves data for highlight_valid_tiles function.
+Needs a better way of accepting arguments, tentatively in the form of attack_area_type
+With MOVEMENT defined as -1.
+
+is_move_valid
+
+Called during each step of a move in battle_move to ensure it is a valid walking location.
+
+battle_act  INCOMPLETE
+
+Takes ui_cross_select variable to determine next scripts to run or actions to take.
+
+execute_action
+
+Probably does stuff, but doesn't yet.
+
+ai_turn
+
+Will eventually do stuff, but doesn't yet.

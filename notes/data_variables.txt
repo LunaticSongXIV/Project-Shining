@@ -1,0 +1,3 @@
+These variables should be minimized or replaced when possible.
+
+global.turn_order_cycle - When processing initiative, this is where the process is measured in charstat.  In any battle state, it also is the current turn character ID.

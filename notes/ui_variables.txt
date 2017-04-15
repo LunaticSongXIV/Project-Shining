@@ -1,0 +1,16 @@
+Variables that control UI functions
+
+ui_show_stat_turn - Show Stat bar for active character.
+show_valid - When set, all valid target tiles are displayed.
+showturnorder - When set, display turn order on-screen.
+battle_ui_open - Used to indicate the UI has a non-standard menu open.
+camera_moving - Used to flag if the camera is busy moving toward a locked entity - Primarily happens when changing active characters.
+free_cursor - When flagged, the cursor can be freely moved about the map.
+freecameraspeed - The speed at which the cursor moves when freed.
+cursor_visible - Controls visibility of the cursor / camera focus.
+cam_zoom_x - Pixel X coordinate of next character for camera zoom.
+key_released - When changing menu states, this is flagged to prevent loops.
+csrx / csry - X and Y of the cursor entity.
+csr_screen_x / csr_screen_y - X and Y of the Cursor on the screen.
+ui_cross_select - Current selection on the Cross UI.
+ui_show_turn_player_stat - When set, show the stat panel for the current player.

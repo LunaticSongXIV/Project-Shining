@@ -85,3 +85,7 @@ Buffs			(Turns remaining, values of -1 are applied by equipment and permanent)
 [58] Quickened	Evasion +20
 [59] Impervious	Bonus Critical Damage reduced by 50%
 [60] Empowered	30% increased crit chance
+
+Other Statuses
+
+[61] Defending

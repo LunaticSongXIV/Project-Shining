@@ -212,7 +212,7 @@
             "blendMode": 0,
             "isLocked": false,
             "name": "Mask",
-            "opacity": 50,
+            "opacity": 35,
             "visible": true
         }
     ],

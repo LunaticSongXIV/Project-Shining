@@ -1,0 +1,7 @@
+Action Options
+
+Attack		Make a Basic Attack			Up (1)		[Call Attack Check Script]
+Magic / Skill	Cast a Spell or Use a Skill		Left (3)	[Call Menu List Script]
+Defend		Boost Parry, Evasion, and Block by 15%	Down (2)	[User Event ?] Player / Enemy
+Item		Use an Item				Right (4)	[Call Menu List Script]
+Stay		Preserve Initiative			Center (0)	[User Event ?] Player / Enemy

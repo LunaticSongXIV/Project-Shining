@@ -1,0 +1,10 @@
+These variables have sweeping effects on gameplay.  Changing some of them can break the game, others have major balance repercussions
+
+movetime   - How long a character should move to change one tile
+movespeed  - How fast a character should move to change one tile
+world_tile_size  - How wide and tall each engine tile is
+turninitcost - How much initiative is lost immediately on starting your turn
+moveinitcost - How much initiative is lost from executing a move
+actinitcost - How much initiative is lost from taking an action
+
+uiactivechar - The character that currently has initiative.
