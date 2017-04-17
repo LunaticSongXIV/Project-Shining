@@ -585,6 +585,16 @@ if(global.animatingmove == 2)
 			global.cam_zoom_x = selfgridx;
 			
 	
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 2D6A096E
+			/// @DnDParent : 37BC417C
+			/// @DnDArgument : "var" "global.cam_zoom_x"
+			/// @DnDArgument : "script" "find_pixel_from_grid"
+			/// @DnDArgument : "arg" "global.cam_zoom_x"
+			/// @DnDSaveInfo : "script" "bb28a5a4-c8d0-4948-b1b0-d4b13587e2bf"
+			global.cam_zoom_x = script_execute(find_pixel_from_grid, global.cam_zoom_x);
+	
 			/// @DnDAction : YoYo Games.Common.Variable
 			/// @DnDVersion : 1
 			/// @DnDHash : 5E4D3780
@@ -593,6 +603,16 @@ if(global.animatingmove == 2)
 			/// @DnDArgument : "var" "global.cam_zoom_y"
 			global.cam_zoom_y = selfgridy;
 			
+	
+			/// @DnDAction : YoYo Games.Common.Execute_Script
+			/// @DnDVersion : 1.1
+			/// @DnDHash : 27054E66
+			/// @DnDParent : 37BC417C
+			/// @DnDArgument : "var" "global.cam_zoom_y"
+			/// @DnDArgument : "script" "find_pixel_from_grid"
+			/// @DnDArgument : "arg" "global.cam_zoom_y"
+			/// @DnDSaveInfo : "script" "bb28a5a4-c8d0-4948-b1b0-d4b13587e2bf"
+			global.cam_zoom_y = script_execute(find_pixel_from_grid, global.cam_zoom_y);
 	
 			/// @DnDAction : YoYo Games.Common.Return
 			/// @DnDVersion : 1
