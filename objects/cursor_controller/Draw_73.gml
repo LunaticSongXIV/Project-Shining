@@ -33,8 +33,9 @@ if(global.battle_state == 3 || global.battle_state == 6)
 	/// @DnDHash : 382B3483
 	/// @DnDParent : 1F7BFEF5
 	/// @DnDArgument : "var" "ds_grid_get(global.valid_moves, xgrid, ygrid)"
+	/// @DnDArgument : "op" "4"
 	/// @DnDArgument : "value" "1"
-	if(ds_grid_get(global.valid_moves, xgrid, ygrid) == 1)
+	if(ds_grid_get(global.valid_moves, xgrid, ygrid) >= 1)
 	{
 		
 	
