@@ -23,9 +23,15 @@ if(myturn == 0)
 global.ui_show_stat_turn = 1;
 
 
+/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
+/// @DnDVersion : 1
+/// @DnDHash : 190D2DC4
+/// @DnDArgument : "msg" ""OLD MOVE CODE, DUMMIED OUT""
+show_debug_message(string("OLD MOVE CODE, DUMMIED OUT"));
+
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
-/// @DnDHash : 66ED15BC
+/// @DnDHash : 700F198F
 /// @DnDArgument : "var" "global.battle_state"
 /// @DnDArgument : "value" "3"
 if(global.battle_state == 3)
@@ -34,11 +40,11 @@ if(global.battle_state == 3)
 
 	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1
-	/// @DnDHash : 1F3677AD
-	/// @DnDParent : 66ED15BC
-	/// @DnDArgument : "script" "battle_move"
-	/// @DnDSaveInfo : "script" "993f8805-532f-423d-8c8b-0fbd5e9d2c4f"
-	script_execute(battle_move);
+	/// @DnDHash : 6AAB7B54
+	/// @DnDParent : 700F198F
+	/// @DnDArgument : "script" "battle_move_new"
+	/// @DnDSaveInfo : "script" "588e2acf-4d00-4c18-bb96-11ec4bc9cd8f"
+	script_execute(battle_move_new);
 
 
 }

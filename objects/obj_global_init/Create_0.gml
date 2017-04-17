@@ -12,13 +12,15 @@ show_debug_message(string("Movement Variables"));
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 5FA9F826
-/// @DnDInput : 2
+/// @DnDInput : 3
 /// @DnDArgument : "value" "16"
 /// @DnDArgument : "value_1" "8"
 /// @DnDArgument : "var" "movetime"
 /// @DnDArgument : "var_1" "movespeed"
+/// @DnDArgument : "var_2" "animatingmove"
 global.movetime = 16;
 global.movespeed = 8;
+global.animatingmove = 0;
 
 
 /// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
@@ -118,12 +120,17 @@ show_debug_message(string("Data Structure Codes"));
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 7F70067D
-/// @DnDInput : 10
+/// @DnDInput : 11
 /// @DnDArgument : "value_1" "1"
 /// @DnDArgument : "value_2" "2"
 /// @DnDArgument : "value_3" "3"
 /// @DnDArgument : "value_4" "4"
 /// @DnDArgument : "value_5" "5"
+/// @DnDArgument : "value_6" "6"
+/// @DnDArgument : "value_7" "7"
+/// @DnDArgument : "value_8" "8"
+/// @DnDArgument : "value_9" "9"
+/// @DnDArgument : "value_10" "10"
 /// @DnDArgument : "var" "charstat"
 /// @DnDArgument : "var_1" "battlemap"
 /// @DnDArgument : "var_2" "terrainmap"
@@ -134,16 +141,18 @@ show_debug_message(string("Data Structure Codes"));
 /// @DnDArgument : "var_7" "currentmovestacky"
 /// @DnDArgument : "var_8" "nextmovestackx"
 /// @DnDArgument : "var_9" "nextmovestacky"
+/// @DnDArgument : "var_10" "backtrace_moves"
 global.charstat = 0;
 global.battlemap = 1;
 global.terrainmap = 2;
 global.valid_moves = 3;
 global.nextturns = 4;
 global.orderedturns = 5;
-global.currentmovestackx = 0;
-global.currentmovestacky = 0;
-global.nextmovestackx = 0;
-global.nextmovestacky = 0;
+global.currentmovestackx = 6;
+global.currentmovestacky = 7;
+global.nextmovestackx = 8;
+global.nextmovestacky = 9;
+global.backtrace_moves = 10;
 
 
 /// @DnDAction : YoYo Games.Common.Execute_Script

@@ -432,6 +432,14 @@
             }
         },
         {
+            "Key": "4222308f-f515-4ce7-827e-fc4f911e984a",
+            "Value": {
+                "id": "6a9992a6-0e35-4f7c-ac91-78e6cfc9f3fa",
+                "resourcePath": "scripts\\move_camera\\move_camera.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "46a6a811-6ce4-44d0-a88f-4214ed50cc59",
             "Value": {
                 "id": "32e0e6ca-552f-4003-8532-a9012a3f3a07",
@@ -485,6 +493,14 @@
                 "id": "89f93eae-b064-4c5c-a499-f7db11ff7695",
                 "resourcePath": "tilesets\\tile_dungeon\\tile_dungeon.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "588e2acf-4d00-4c18-bb96-11ec4bc9cd8f",
+            "Value": {
+                "id": "43e3ae5c-4873-42b8-a821-b2e63757ed14",
+                "resourcePath": "scripts\\battle_move_new\\battle_move_new.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -592,6 +608,14 @@
             }
         },
         {
+            "Key": "7b7364f7-ec7b-45fa-b900-86f026295d86",
+            "Value": {
+                "id": "16e3722f-50d9-4ed3-a96f-fe3437022dfb",
+                "resourcePath": "scripts\\backtrace_move\\backtrace_move.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "806273e3-e454-46a4-9e8b-5197e5b100d0",
             "Value": {
                 "id": "f12d450f-cbd9-4692-91ac-ef19f722c378",
@@ -629,6 +653,14 @@
                 "id": "e3ff159f-116a-4ece-b4cd-1edd572c2661",
                 "resourcePath": "views\\820403a5-29b5-45ff-b8ed-b7abb7b028f3.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "827028b5-fb95-420c-a7a6-0c6f0f11b497",
+            "Value": {
+                "id": "42527987-ee62-43af-8ebc-7f0cc3d8ca16",
+                "resourcePath": "scripts\\find_sprite_from_faction\\find_sprite_from_faction.yy",
+                "resourceType": "GMScript"
             }
         },
         {
@@ -1321,6 +1353,7 @@
         "959243b0-4150-4a91-ae2a-54e950c1f59b",
         "aa8074cc-f282-4f16-98da-d7a7eadb72f6",
         "0cd9da4f-112a-4409-b828-9d47cb9e0bf8",
+        "4222308f-f515-4ce7-827e-fc4f911e984a",
         "fc88b982-4e2d-4e95-82ac-89e641dfbccf",
         "35b24c7e-6eda-48c1-98ef-990c614dbcc3",
         "8e14865c-6f14-4a48-9b4a-8ea233fbfcb7",
@@ -1335,6 +1368,7 @@
         "07d83860-7fd4-4e36-95e5-4796975a33b8",
         "cb0b03c5-0dee-4a57-bbdb-5aa40a16bfd3",
         "760385ca-fdae-444c-aafa-f0df8e9356c1",
+        "827028b5-fb95-420c-a7a6-0c6f0f11b497",
         "a8b94e81-2d56-4899-a6b1-ce2b4692e274",
         "bba3c7cd-83db-45c0-a89f-51c34011d49b",
         "fdcb687a-79b7-42b9-b7d9-f83600c15a48",
@@ -1347,6 +1381,8 @@
         "f927fbbf-2b24-44ad-aa5e-6849f84f44cf",
         "9c90841d-6fdc-4d4f-a6a0-6ed695b9b3e7",
         "b36bc47a-6715-47f4-a0ae-1c82ed76ed92",
+        "588e2acf-4d00-4c18-bb96-11ec4bc9cd8f",
+        "7b7364f7-ec7b-45fa-b900-86f026295d86",
         "01130964-3981-4870-a3c9-d86c12f8bbc2"
     ],
     "tutorial": ""

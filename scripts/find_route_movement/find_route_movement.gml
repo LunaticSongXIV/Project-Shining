@@ -39,6 +39,18 @@ moveremain = ds_grid_get(global.charstat,originme,19);
 moveremain += 1;
 
 
+/// @DnDAction : YoYo Games.Data Structures.Grid_Set_Value
+/// @DnDVersion : 1
+/// @DnDHash : 73E3B3EA
+/// @DnDArgument : "var" "global.valid_moves"
+/// @DnDArgument : "x" "originx"
+/// @DnDArgument : "y" "originy"
+/// @DnDArgument : "value" "moveremain"
+
+{
+	ds_grid_set(global.valid_moves, originx, originy, moveremain);
+}
+
 /// @DnDAction : YoYo Games.Common.Execute_Script
 /// @DnDVersion : 1.1
 /// @DnDHash : 60E49158

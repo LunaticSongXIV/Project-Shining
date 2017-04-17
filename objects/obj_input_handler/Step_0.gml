@@ -33,8 +33,8 @@ if(global.mouseenabled == 0)
 	/// @DnDParent : 481E0B5D
 	/// @DnDArgument : "var" "movemousesum"
 	/// @DnDArgument : "op" "4"
-	/// @DnDArgument : "value" "5"
-	if(movemousesum >= 5)
+	/// @DnDArgument : "value" "20"
+	if(movemousesum >= 20)
 	{
 		
 	
