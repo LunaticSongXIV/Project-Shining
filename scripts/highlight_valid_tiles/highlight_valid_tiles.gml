@@ -44,7 +44,8 @@ while(true)
 			/// @DnDParent : 3341DC20
 			/// @DnDArgument : "var" "ds_grid_get(global.valid_moves, findvalidx, findvalidy)"
 			/// @DnDArgument : "not" "1"
-			if(!(ds_grid_get(global.valid_moves, findvalidx, findvalidy) == 0))
+			/// @DnDArgument : "op" "3"
+			if(!(ds_grid_get(global.valid_moves, findvalidx, findvalidy) <= 0))
 			{
 				
 			

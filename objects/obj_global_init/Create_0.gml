@@ -97,14 +97,14 @@ show_debug_message(string("Camera Variables"));
 /// @DnDVersion : 1
 /// @DnDHash : 6355F14A
 /// @DnDInput : 4
-/// @DnDArgument : "value_1" "64"
+/// @DnDArgument : "value_1" "24"
 /// @DnDArgument : "value_3" "16"
 /// @DnDArgument : "var" "cam_zoom_to_next"
 /// @DnDArgument : "var_1" "cameraspeed"
 /// @DnDArgument : "var_2" "free_cursor"
 /// @DnDArgument : "var_3" "free_cursor_speed"
 global.cam_zoom_to_next = 0;
-global.cameraspeed = 64;
+global.cameraspeed = 24;
 global.free_cursor = 0;
 global.free_cursor_speed = 16;
 
@@ -118,7 +118,7 @@ show_debug_message(string("Data Structure Codes"));
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 7F70067D
-/// @DnDInput : 6
+/// @DnDInput : 10
 /// @DnDArgument : "value_1" "1"
 /// @DnDArgument : "value_2" "2"
 /// @DnDArgument : "value_3" "3"
@@ -130,12 +130,20 @@ show_debug_message(string("Data Structure Codes"));
 /// @DnDArgument : "var_3" "valid_moves"
 /// @DnDArgument : "var_4" "nextturns"
 /// @DnDArgument : "var_5" "orderedturns"
+/// @DnDArgument : "var_6" "currentmovestackx"
+/// @DnDArgument : "var_7" "currentmovestacky"
+/// @DnDArgument : "var_8" "nextmovestackx"
+/// @DnDArgument : "var_9" "nextmovestacky"
 global.charstat = 0;
 global.battlemap = 1;
 global.terrainmap = 2;
 global.valid_moves = 3;
 global.nextturns = 4;
 global.orderedturns = 5;
+global.currentmovestackx = 0;
+global.currentmovestacky = 0;
+global.nextmovestackx = 0;
+global.nextmovestacky = 0;
 
 
 /// @DnDAction : YoYo Games.Common.Execute_Script

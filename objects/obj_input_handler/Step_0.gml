@@ -13,13 +13,6 @@ if(global.mouseenabled == 0)
 {
 	
 
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 2F742AD2
-	/// @DnDParent : 481E0B5D
-	/// @DnDArgument : "msg" ""Finding Mouse Move Distance""
-	show_debug_message(string("Finding Mouse Move Distance"));
-
 	/// @DnDAction : YoYo Games.Common.Execute_Script
 	/// @DnDVersion : 1.1
 	/// @DnDHash : 511B3D04
@@ -33,20 +26,6 @@ if(global.mouseenabled == 0)
 	/// @DnDArgument : "arg_3" "window_mouse_get_y()"
 	/// @DnDSaveInfo : "script" "32890da9-2f05-4643-8665-6b6fff94fde2"
 	movemousesum = script_execute(find_distance, last_mouse_x, last_mouse_y, window_mouse_get_x(), window_mouse_get_y());
-
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 1302C654
-	/// @DnDParent : 481E0B5D
-	/// @DnDArgument : "msg" ""Mouse Movement Equals ...""
-	show_debug_message(string("Mouse Movement Equals ..."));
-
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 0BD77FA2
-	/// @DnDParent : 481E0B5D
-	/// @DnDArgument : "msg" "movemousesum"
-	show_debug_message(string(movemousesum));
 
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -80,12 +59,6 @@ if(global.mouseenabled == 0)
 
 
 }
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 7096ECA0
-/// @DnDArgument : "msg" ""Assign last mouse position""
-show_debug_message(string("Assign last mouse position"));
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1

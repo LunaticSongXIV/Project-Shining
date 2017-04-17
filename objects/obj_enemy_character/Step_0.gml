@@ -65,6 +65,26 @@ if(global.battle_state == 5)
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
+/// @DnDHash : 1C6831C1
+/// @DnDArgument : "var" "global.battle_state"
+/// @DnDArgument : "value" "6"
+if(global.battle_state == 6)
+{
+	
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 25DC8DA4
+/// @DnDArgument : "var" "global.battle_state"
+/// @DnDArgument : "value" "7"
+if(global.battle_state == 7)
+{
+	
+}
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
 /// @DnDHash : 091EE233
 /// @DnDArgument : "var" "global.battle_state"
 /// @DnDArgument : "value" "8"

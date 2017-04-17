@@ -23,13 +23,6 @@ if(global.battle_pause == 1)
 {
 	
 
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 11B27AF7
-	/// @DnDParent : 042FEAB2
-	/// @DnDArgument : "msg" ""Aborting Menu Draw - Battle UI Opened""
-	show_debug_message(string("Aborting Menu Draw - Battle UI Opened"));
-
 	/// @DnDAction : YoYo Games.Common.Exit_Event
 	/// @DnDVersion : 1
 	/// @DnDHash : 46AB15F6
@@ -48,13 +41,6 @@ if(global.battle_pause == 1)
 if(!(global.battle_state == 4))
 {
 	
-
-	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-	/// @DnDVersion : 1
-	/// @DnDHash : 20303BEF
-	/// @DnDParent : 4D2C5FF4
-	/// @DnDArgument : "msg" ""Aborting Menu Draw - Not Correct Battle State""
-	show_debug_message(string("Aborting Menu Draw - Not Correct Battle State"));
 
 	/// @DnDAction : YoYo Games.Common.Exit_Event
 	/// @DnDVersion : 1

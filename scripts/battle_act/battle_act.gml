@@ -3,8 +3,8 @@
 /// @DnDHash : 7DC75496
 /// @DnDArgument : "var" "global.ui_cross_select"
 /// @DnDArgument : "op" "4"
-/// @DnDArgument : "value" "3"
-if(global.ui_cross_select >= 3)
+/// @DnDArgument : "value" "5"
+if(global.ui_cross_select >= 5)
 {
 	
 
@@ -94,45 +94,33 @@ if(global.ui_cross_select <= 1)
 {
 	
 
-	/// @DnDAction : YoYo Games.Common.If_Variable
+	/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
 	/// @DnDVersion : 1
-	/// @DnDHash : 65DD4A0D
+	/// @DnDHash : 7BBA5337
 	/// @DnDParent : 0488AFE8
-	/// @DnDArgument : "var" "global.target_scan_done"
-	if(global.target_scan_done == 0)
-	{
-		
+	/// @DnDArgument : "msg" ""battle act - attack - find target tiles""
+	show_debug_message(string("battle act - attack - find target tiles"));
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 0D0814CB
+	/// @DnDParent : 0488AFE8
+	/// @DnDArgument : "var" "global.attack_area_type"
+	global.attack_area_type = 0;
 	
-			/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-			/// @DnDVersion : 1
-			/// @DnDHash : 7BBA5337
-			/// @DnDParent : 65DD4A0D
-			/// @DnDArgument : "msg" ""battle act - attack - find target tiles""
-			show_debug_message(string("battle act - attack - find target tiles"));
-	
-			/// @DnDAction : YoYo Games.Common.Variable
-			/// @DnDVersion : 1
-			/// @DnDHash : 0D0814CB
-			/// @DnDParent : 65DD4A0D
-			/// @DnDArgument : "var" "global.attack_area_type"
-			global.attack_area_type = 0;
-			
-	
-			/// @DnDAction : YoYo Games.Common.Execute_Script
-			/// @DnDVersion : 1.1
-			/// @DnDHash : 7B1C893A
-			/// @DnDInput : 4
-			/// @DnDParent : 65DD4A0D
-			/// @DnDArgument : "script" "check_valid_targets"
-			/// @DnDArgument : "arg" "global.attack_area_type"
-			/// @DnDArgument : "arg_1" "selfgridx"
-			/// @DnDArgument : "arg_2" "selfgridy"
-			/// @DnDArgument : "arg_3" "myself"
-			/// @DnDSaveInfo : "script" "d4bb39fa-a13b-4399-b874-81785a4a77f8"
-			script_execute(check_valid_targets, global.attack_area_type, selfgridx, selfgridy, myself);
-	
-	
-	}
+
+	/// @DnDAction : YoYo Games.Common.Execute_Script
+	/// @DnDVersion : 1.1
+	/// @DnDHash : 7B1C893A
+	/// @DnDInput : 4
+	/// @DnDParent : 0488AFE8
+	/// @DnDArgument : "script" "check_valid_targets"
+	/// @DnDArgument : "arg" "global.attack_area_type"
+	/// @DnDArgument : "arg_1" "selfgridx"
+	/// @DnDArgument : "arg_2" "selfgridy"
+	/// @DnDArgument : "arg_3" "myself"
+	/// @DnDSaveInfo : "script" "d4bb39fa-a13b-4399-b874-81785a4a77f8"
+	script_execute(check_valid_targets, global.attack_area_type, selfgridx, selfgridy, myself);
 
 	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
@@ -141,6 +129,15 @@ if(global.ui_cross_select <= 1)
 	/// @DnDArgument : "expr" "1"
 	/// @DnDArgument : "var" "global.show_valid"
 	global.show_valid = 1;
+	
+
+	/// @DnDAction : YoYo Games.Common.Variable
+	/// @DnDVersion : 1
+	/// @DnDHash : 751CAFEE
+	/// @DnDParent : 0488AFE8
+	/// @DnDArgument : "expr" "6"
+	/// @DnDArgument : "var" "global.battle_state"
+	global.battle_state = 6;
 	
 
 

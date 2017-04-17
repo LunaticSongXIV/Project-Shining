@@ -55,12 +55,12 @@ script_execute(init_terrainmap);
 /// @DnDVersion : 1
 /// @DnDHash : 65C4F798
 /// @DnDArgument : "var" "global.battlemap"
-/// @DnDArgument : "x" "29"
-/// @DnDArgument : "y" "19"
+/// @DnDArgument : "x" "16"
+/// @DnDArgument : "y" "17"
 /// @DnDArgument : "value" "20"
 
 {
-	ds_grid_set(global.battlemap, 29, 19, 20);
+	ds_grid_set(global.battlemap, 16, 17, 20);
 }
 
 /// @DnDAction : YoYo Games.Common.Execute_Script

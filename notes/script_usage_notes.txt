@@ -13,13 +13,13 @@ Draws the shadow of the player's previous position
 find_turn_order BUGGY BUGGY BUGGY
 
 Determines the next five characters in turn order, and draws them to the screen.
-This function is buggy when multiple characters take turns in the next initiative cycle.
+This function is buggy when multiple characters take upcoming turns in the same initiative cycle.
 
 find_enemy_sprite  BUGGY BUGGY BUGGY
 
 Requires argument for direction of sprite.  0 = up, 1 = right, 2 = down, 3 = left
 
-Load the correct sprite for an enemy combatant based on the character ID.
+Loads the correct sprite for an enemy combatant based on the character ID.
 We need to ID enemy character sprites by something other than battle ID.
 Unlike Party characters, enemy characters may have dynamic identities on a given battle ID.
 
@@ -68,7 +68,7 @@ Randomizes and sets starting initiative value for unit that calls it.
 
 init_terrainmap
 
-Reads walkable terrain from layer "Passable" and writes values to terrainmap grid.
+Reads walkable terrain from layer "Passable" and writes values to terrainmap grid.  1 is walkable, 0 is blocked.
 
 init_character_stats
 

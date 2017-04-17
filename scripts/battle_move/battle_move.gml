@@ -1,15 +1,3 @@
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 7D218075
-/// @DnDArgument : "msg" ""MoveOK State""
-show_debug_message(string("MoveOK State"));
-
-/// @DnDAction : YoYo Games.Miscellaneous.Debug_Show_Message
-/// @DnDVersion : 1
-/// @DnDHash : 13A8474C
-/// @DnDArgument : "msg" "moveok"
-show_debug_message(string(moveok));
-
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 40105769
